@@ -1,0 +1,91 @@
+
+### animated avatar
+new_avatar_not_gif: "Please provide a valid gif/png image."
+new_avatar_success: "New avatar has been set successfully!"
+new_avatar_error: "Failed to set new avatar."
+
+### animated banner
+new_banner_not_gif: "Please provide a valid gif/png image."
+new_banner_success: "New banner has been set successfully!"
+new_banner_error: "Failed to set new banner."
+
+### Shutdown command!
+restart_msg: "<:m_oke:1193111935462420531> **Successfully shutting down...**"
+
+### Announcement to all server bot
+announcement_desc: "*Enter a description for this announcement*"
+announcement_invalidURL: "*Invalid image URL provided or no URL was given. Please provide a valid image URL.*"
+announcement_timeout: "*No input received within the given time. Command cancelled.*"
+announcement_failure: "*Failed to send the announcement in any guild.*`No guilds were found.`"
+announcement_success: "*Announcement has been sent successfully in %{successfulGuilds} guild%{plural}!*"
+
+### Blacklist Guild
+blacklist_guild_not_found: "Guild not found"
+blacklist_guild_already: "Server %{guild} is already blacklisted"
+blacklist_guild_add: "Guild %{guild} has been added to the blacklist."
+blacklist_guild_not_exist: "Server %{guild} doesn't exist in database"
+blacklist_guild_delete: "Guild %{guild} has been removed from the blacklist."
+
+### Blacklist User
+blacklist_user_bot_owner: "User can't be blacklisted because it's the bot owner"
+blacklist_user_not_found: "User not found"
+blacklist_user_already: "User %{user} is already blacklisted"
+blacklist_user_add: "User %{user} has been added to blacklisted"
+blacklist_user_not_exist: "User %{user} doesn't exist in database"
+blacklist_user_delete: "User %{user} has been removed from blacklisted"
+
+### Premium / Generate command!
+premium_code_arg_error: "<:m_wrong:1193112008124530738> Invalid argument. Please use %{text}"
+premium_code_desc: |
+  **Generated %{codes_length} codes**
+  ```%{codes}```
+premium_dm_succes: "<:m_oke:1193111935462420531> **I've sent you the premium code via DM!**"
+premium_dm_failed: "<:m_wrong:1193112008124530738> **I've failed to send you the premium code via DM!**"
+
+### Premium Code Logs ###
+premium_code_plan: Plan
+premium_code_expired: Expire
+premium_code_generateby: Generate By
+
+### Remove command!
+premium_remove_desc: "<:m_oke:1193111935462420531> **Successfully removed %{user}'s from Premium user**"
+premium_remove_already: "<:m_warning:1193112123757305886> %{user} already removed"
+premium_remove_invalid_params: "<:m_warning:1193112123757305886> Invalid, Example %{example}"
+premium_remove_404: "<:m_wrong:1193112008124530738> **Not found %{id} in type %{type}**"
+premium_remove_invalid_type: "<:m_warning:1193112123757305886> Invalid, Type %{type}"
+premium_remove_footer: "Successfully removed %{user}"
+premium_remove_id: "Id"
+premium_remove_by: "Remove by"
+display_name: "Display Name"
+
+### Update command!
+update_provide_desc: "*Enter a description for this update*"
+update_cancelled: "*No description provided. Command canceled.*"
+update_length_exceeded: "*The description is too long. maks 2000 characters allowed.*"
+update_success: "*The update has been sent successfully*"
+update_failure: "*Failed to send the update.*"
+update_timeout_failure: "*Timed out. Please try again.*"
+
+### Status command! (bot status)
+status_arg_error: "<:m_wrong:1193112008124530738> Invalid argument. Please use %{text}"
+status_enable: "<:m_warning:1193112123757305886> **Oops! Status Channel already exists.**"
+status_create: "<:m_created:1215293513088892979> **Created Bot Status Channel!**"
+status_null: "<:m_wrong:1193112008124530738> **Bot Status Channel not found!**"
+status_delete: "<:m_bin:1193112832930230272> **Deleted Bot Status Channel!**"
+
+### Maintenance Commands! ###
+maintenance_arg_error: "<:m_wrong:1193112008124530738> Invalid argument. Please use %{text}"
+maintenance_true: "<:m_oke:1193111935462420531> Maintenance Mode has been set **True**"
+maintenance_false: "<:m_oke:1193111935462420531> Maintenance Mode has been **False**"
+
+### Commands Guild List
+guild_list_number_invalid: "<:m_wrong:1193112008124530738> Please provide a valid number!"
+guild_list_title: "List Premium Servers!"
+guild_list_notnumber: "<:m_wrong:1193112008124530738> Only numbers are allowed for the page!"
+guild_list_page_notfound: "<:m_wrong:1193112008124530738> Only **%{page} pages** are available!"
+
+### Commands User List
+user_list_number_invalid: "<:m_wrong:1193112008124530738> Please provide a valid number!"
+user_list_title: "List Premium Users"
+user_list_notnumber: "<:m_wrong:1193112008124530738> Only numbers are allowed for the page!"
+user_list_page_notfound: "<:m_wrong:1193112008124530738> Only **%{page} pages** are available!"

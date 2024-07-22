@@ -1,0 +1,33 @@
+### PLAYER MUSIC ###
+player_title: "**%{title}**"
+player_desc: "%{title}"
+no_same_voice: "<:m_wrong:1193112008124530738> You are not in the same voice channel as me!"
+filter_already: "<:m_warning:1193112123757305886> **%{name} filter is already enabled**"
+filter_reset_on: "<:m_oke:1193111935462420531> **Filter has been Reset**"
+filter_reset_already: "<:m_warning:1193112123757305886> **Filter has already been Reset**"
+no_player_filter: "<:m_warning:1193112123757305886> No song is currently playing!"
+filter_menu_on: |
+  <:m_singing:1196006929932234782> **Filter %{name} on!** 
+  <:m_blank:1215234569008189450><:m_sparkle:1204848989992648704> **Your music is going to sound even cooler now!**
+
+player_get_exception: "Uh-oh! Looks like there's a hiccup with the track. Want me to give it another shot?"
+player_track_error: "The track had an issue, Can you please try it once more?"
+player_track_stuck: "I'm so sad :(, the track got stuck. Maybe a retry will cheer us up?"
+queue_end_desc: |
+  <:m_sparkle:1204848989992648704> All songs have played! Need more beats to keep the rhythm alive? 
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> Let's </play:1219594140560396421> more songs and extend the party vibe!
+
+  <:m_prem:1193109484688642118> Enable </247:1219594143903256628> to keep the groove going strong!
+
+
+leave_pause: "Considering that you all left me alone :( The player has been paused."
+leave_resume: "Considering that someone has joined me, the player has been resumed."
+
+player_end: |
+  <:m_warning:1193112123757305886> **The channel has been empty for almost 15 minutes, so I decided to leave because I don't like being alone!
+
+  <:m_sparkle:1204848989992648704> Want me to stay in the channel even if it's empty? 
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> You can use the </247:1219594143903256628> command to do that!**
+
+### Last FM Scrobble ###
+expired_login_session: "Hey %{user}, Your Last.fm session has expired or is invalid.\nPlease re-authenticate to continue using the scrobble feature."

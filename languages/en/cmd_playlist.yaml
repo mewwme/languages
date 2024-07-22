@@ -1,0 +1,112 @@
+
+### pl-add commands ###
+pl_add_invalid: "<:m_wrong:1193112008124530738> Please provide a valid Playlist ID!"
+pl_add_match: "<:m_warning:1193112123757305886> Please provide a valid song name or URL!"
+pl_add_playlist: "Searched **%{title}** `%{duration}` • (**%{track} Songs**) • %{user}"
+pl_add_track: "Searched **%{title}** • `%{duration}` • %{user}"
+pl_add_search: "Searched **%{title}** • `%{duration}` • %{user}"
+pl_add_owner: "<:m_wrong:1193112008124530738> You are not the **Playlist Owner**!"
+pl_add_limit_track: "<:m_wrong:1193112008124530738> You can not add more than **%{limit} Songs**"
+pl_add_added: "<:m_add:1215292119384723517> Added **%{count} Songs** to `%{playlist}`"
+
+### pl-all commands ###
+pl_all_view_embed_playlist: "%{num}. `%{name}` • (**%{tracks} Songs**) • Created: `[%{create} ago]`"
+pl_all_view_embed_title: "%{user}"
+pl_all_view_embed_footer: "Page • %{page}/%{pages} | Playlists • %{songs}"
+pl_all_view_notnumber: "<:m_wrong:1193112008124530738> Please provide a valid page number!"
+pl_all_view_page_notfound: "<:m_wrong:1193112008124530738> There are only **%{page} Pages**!"
+
+### pl-create commands ###
+pl_create_invalid: "<:m_wrong:1193112008124530738> Please provide a valid Playlist ID!"
+pl_create_toolong: "<:m_wrong:1193112008124530738> Playlist Name can not be longer than **16 Characters**"
+pl_create_des_toolong: "<:m_wrong:1193112008124530738> Playlist Description can not be longer than **1000 Characters**"
+pl_create_limit_playlist: "<:m_wrong:1193112008124530738> You can not create more than **%{limit} Playlists**"
+create_created_title: "Successfully Created New Playlist!"
+pl_create_created: |
+  <:m_queue:1193113465632587789> **Playlist Name** ```%{playlist}```
+  <:m_id:1215293508634542106> **Playlist ID** ```%{id}```
+  <:m_created:1215293513088892979> **Desc** ```%{desc}```
+pl_create_created_footer: "Type /pl-editor to edit your playlist!"
+
+### pl-delete commands ###
+pl_delete_invalid: "<:m_wrong:1193112008124530738> Please provide a valid Playlist ID!"
+delete_notfound: "<:m_warning:1193112123757305886> Please provide a valid Playlist ID!"
+pl_delete_owner: "<:m_wrong:1193112008124530738> You are not the **Playlist Owner**"
+pl_delete_confirm: "<:m_support:1206557461868183552> Do you want to delete `%{playlist_id}`"
+pl_delete_deleted: "<:m_oke:1193111935462420531> Playlist `%{name}` has been successfully **Deleted**"
+pl_delete_no: "<:m_warning:1193112123757305886> Cancelled **Deletion** Playlist!"
+
+### pl-detail commands ###
+pl_detail_number_invalid: "<:m_warning:1193112123757305886> Please provide a valid number!"
+pl_detail_notfound: "<:m_warning:1193112123757305886> Please provide a valid Playlist ID!"
+pl_detail_private: "<:m_lock:1204850955363811420> Playlist is **Private**"
+pl_detail_track: "%{num}. **%{title}** • **%{author}** `[%{duration}]`"
+pl_detail_embed_title: "Playlist: %{name}"
+pl_detail_embed_footer: "Page • %{page}/%{pages} | Songs • %{songs} | Total Duration • %{duration}"
+pl_detail_notnumber: "<:m_warning:1193112123757305886> Please provide a valid page number!"
+pl_detail_page_notfound: "<:m_warning:1193112123757305886> There are only **%{page} Pages**"
+
+### pl-editor commands! ###
+pl_edit_playlist_id_label: "Enter your **New Playlist ID** `[a-z, A-Z, 0-9]`"
+pl_edit_playlist_name_label: "Enter your **New Playlist Name**"
+pl_edit_playlist_des_label: "Enter your **New Playlist Description**"
+pl_edit_playlist_private_label: "Enter your **New Playlist Visibility** `[public/private]`"
+pl_edit_success: "<:m_oke:1193111935462420531> Successfully edited playlist\n<:m_blank:1215234569008189450><:m_id:1215293508634542106> New Playlist ID: `%{playlistId}`"
+pl_edit_arg: "<:m_wrong:1193112008124530738> Please provide a valid Playlist ID!"
+pl_edit_notfound: "<:m_wrong:1193112008124530738> Please provide a valid Playlist ID!"
+pl_edit_playlist_owner: "<:m_wrong:1193112008124530738> You are not the **Playlist Owner**!"
+pl_edit_invalid_id: "<:m_wrong:1193112008124530738> Please enter a valid and non existing Playlist ID!"
+pl_edit_invalid_mode: "<:m_wrong:1193112008124530738> Invalid Visibility mode. Please use **public** or **private**"
+
+### Editor interaction!
+ineraction_edit_playlist_id_label: "New Playlist ID"
+ineraction_edit_playlist_name_label: "New Playlist Name"
+ineraction_edit_playlist_des_label: "New Playlist Description"
+ineraction_edit_playlist_private_label: "New Playlist Visibility"
+ineraction_edit_playlist_id_placeholder: "Enter your New Playlist ID! [a-z, A-Z, 0-9]"
+ineraction_edit_playlist_name_placeholder: "Enter your New Playlist Name!"
+ineraction_edit_playlist_des_placeholder: "Enter your New Playlist Description!"
+ineraction_edit_playlist_private_placeholder: "Enter your New Playlist Visibility! [public/private]"
+ineraction_edit_success: "<:m_oke:1193111935462420531> Successfully edited playlist\n<:m_blank:1215234569008189450><:m_id:1215293508634542106> New Playlist ID: `%{playlistId}`"
+ineraction_edit_playlist_error: "<:m_wrong:1193112008124530738> Something went wrong. Please try again!"
+ineraction_edit_notfound: "<:m_wrong:1193112008124530738> Please provide a valid Playlist ID!"
+ineraction_edit_playlist_owner: "<:m_wrong:1193112008124530738> You are not the **Playlist Owner**"
+ineraction_edit_invalid_id: "<:m_wrong:1193112008124530738> Please enter a valid and non existing Playlist ID!"
+
+### pl-import commands! ###
+pl_import_imported_desc: "### Playlist **%{name}** added to the queue ♪"
+pl_import_imported_footer: "Enjoy %{tracks} songs • %{duration} • of music bliss!"
+pl_import_invalid: "<:m_wrong:1193112008124530738> Please provide a valid Playlist ID!"
+pl_import_private: "<:m_lock:1204850955363811420> Playlist is **Private**"
+pl_import_voice: "<:m_wrong:1193112008124530738> You need to be in a voice channel to use this command!"
+pl_import_empty: "<:m_wrong:1193112008124530738> Playlist is **Empty**"
+
+### pl-info commands! ###
+pl_info_owner: "<:m_owner:1215294053818830940> Owner"
+pl_info_id: "<:m_id:1215293508634542106> ID"
+pl_info_des: "<:m_legal:1193105018887344169> Description"
+pl_info_no_des: "No description is provided!"
+pl_info_private: "<:m_visible:1215293510891085834> Visibility"
+pl_public: "Public"
+pl_private: "Private"
+pl_info_total: "<:m_music:1193101413362966559> Total Songs"
+pl_info_created: "<:m_created:1215293513088892979> Created"
+pl_info_invalid: "<:m_wrong:1193112008124530738> Please provide a valid Playlist ID!"
+
+### pl-remove commands! ###
+pl_remove_invalid: "<:m_wrong:1193112008124530738> Please provide a valid Playlist ID!"
+pl_remove_number_invalid: "<:m_wrong:1193112008124530738> Please provide a valid number!"
+pl_remove_notfound: "<:m_wrong:1193112008124530738> Please provide a valid Playlist ID!"
+pl_remove_owner: "<:m_wrong:1193112008124530738> You are not the **Playlist Owner**"
+pl_remove_song_notfound: "<:m_wrong:1193112008124530738> Song not found!"
+pl_remove_removed: "<:m_bin:1193112832930230272> Removed **%{position} Number** song from `%{name}`"
+
+### pl-SaveQueue command! ###
+pl_savequeue_invalid: "<:m_wrong:1193112008124530738> Please provide a valid Playlist ID!"
+pl_savequeue_notfound: "<:m_wrong:1193112008124530738> Please provide a valid Playlist ID!"
+pl_savequeue_owner: "<:m_wrong:1193112008124530738> You are not the **Playlist Owner**!"
+pl_savequeue_no_tracks: "<:m_wrong:1193112008124530738> No song is currently playing!"
+pl_savequeue_no_new_saved: "<:m_wrong:1193112008124530738> Song already exists in `%{name}`"
+pl_savequeue_saved: "<:m_oke:1193111935462420531> Saved **%{tracks} Songs** to `%{name}`"
+
+pl_error_no_node: "No Lavalink server was found. Please try again after **5 Minutes**"

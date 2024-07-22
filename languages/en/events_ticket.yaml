@@ -1,0 +1,14 @@
+### Ticket Events ###
+setup_ticket_succes: "The ticket has been set up to %{channel} successfully."
+channel_viewable: "The provided channel is not visible to me"
+category_viewable: "The provided category is not visible to me"
+invalid_category: "The provided category is invalid"
+missing_permission: "The bot is missing manage-channels permissions to create a ticket channel"
+invalid_channel_category: "The provided channel or category is invalid"
+ticket_reason: "Provide the reason for creating a ticket"
+ticket_close_user: "You are not allowed to close the ticket."
+ticket_create: "The ticket has been created. Go to %{channel}"
+ticket_create_title: "Wait for staff to respond"
+ticket_create_desc: |
+  Thanks for creating your ticket. Please wait for staff to respond.
+  `NOTE: This ticket has no backup. Please ensure to back up any important information yourself`

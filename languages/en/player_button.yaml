@@ -1,0 +1,55 @@
+
+### Autoplay command!
+autoplay_on: "<:m_oke:1193111935462420531> Autoplay is now **Enabled**"
+autoplay_off: "<:m_wrong:1193112008124530738> Autoplay is now **Disabled**"
+autoplay_no_song: "No songs are playing!"
+
+### Loop command!
+loop_current: |
+  <:m_loop:1193113331767185499> **Now Looping %{title}
+  <:m_blank:1215234569008189450><:m_sparkle:1204848989992648704> Enjoy it, %{user}**
+
+loop_all: "<:m_loop:1193113331767185499> **%{user} has been looping QUEUE mode**"
+unloop_all: "<:m_wrong:1193112008124530738> **Looping mode has been DISABLED by %{user}**"
+loop_invalid: "<:m_warning:1193112123757305886> Invalid Loop mode. Please use **%{mode}**"
+loop_already: "<:m_warning:1193112123757305886> Loop mode is already **%{mode}**"
+
+### Pause command!
+pause_msg: |
+  <:m_pause:1193115141156376647> **The track %{title} is currently paused! 
+  <:m_blank:1215234569008189450><:m_sparkle:1204848989992648704> It was paused by %{user}**
+### Resume command!
+resume_msg: |
+  <:m_play:1193113362293338112> **Playback Resumed %{title},
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> Enjoy %{user}**
+
+previous_notfound: |
+  <:m_warning:1193112123757305886> **No Previous song found in the queue! 
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> Why not </play:1219594140560396421> more tracks and keep the music going?**
+previous_msg: |
+  <:m_replay:1215286916014931998>  **Back to the previous song by %{user} 
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> Now playing %{title}**
+
+### Queue command!
+queue_title: "Queue playing..."
+queue_description: "**%{title} **\n\n**Rest of Queue %{list_song}**"
+queue_footer: "Page • %{page}/%{pages} | Songs • %{queue_lang} | Total Duration • %{total_duration}"
+
+### Shuffle command!
+shuffle_msg: "<:m_shuffle:1193113431423848450> **%{user} Shuffles the Queue**"
+
+### Skip command!
+skip_msg: "<:m_forward:1215286423951900734> **%{user} Skipped %{title}**"
+skip_notfound: |
+  <:m_warning:1193112123757305886> **No song was found to Skip to! Seems like there's nothing to skip to. 
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> Let's </play:1219594140560396421> keep the music going by adding more tracks!**
+
+### Stop command!
+stop_msg: "<:m_stop:1193113393561878548> **%{user} stopped %{title}**"
+
+### Volume command!
+voldown_msg: "<:m_voldown:1196105475050192976> **Changed Volume to %{volume}%**"
+volume_invalid: "<:m_warning:1193112123757305886> Invalid Volume. Available range is **1** and **100**"
+volup_msg: "<:m_volup:1196105452547739788> **Changed Volume to %{volume}%**"
+volume_max: "<:m_warning:1193112123757305886> **Volume is already at max 100%**"
+volume_min: "<:m_warning:1193112123757305886> **Player is already at min volume!**"

@@ -1,0 +1,102 @@
+
+### 24/7 command!
+247_on: "<:m_oke:1193111935462420531> 24/7 mode is now **Enabled**"
+247_off: "<:m_wrong:1193112008124530738> 24/7 mode is now **Disabled**"
+247_already: "<:m_warning:1193112123757305886> 24/7 mode is already **%{mode}**"
+247_arg_error: "<:m_wrong:1193112008124530738> Invalid 24/7 mode. Please use %{text}"
+247_no_in_voice: "<:m_wrong:1193112008124530738> You are not in a voice channel!"
+
+### Set Language command! ###
+provide_lang: "<:m_wrong:1193112008124530738> **Invalid Language. Please use** `%{languages}`"
+lang_set: "<:m_lang:1215299274833666148> **Language has been set to** `%{language}`"
+lang_change: "<:m_lang:1215299274833666148> **Language has been changed to** `%{language}`"
+
+### Prefix command! ###
+prefix_arg: "<:m_wrong:1193112008124530738> Please provide a valid Prefix!"
+prefix_length: "<:m_wrong:1193112008124530738> **Prefix can not be longer than 10 Characters**"
+prefix_set: "<:m_magic:1204853015585226855> **Prefix has been set to** `%{prefix}`"
+prefix_change: "<:m_magic:1204853015585226855> **Prefix has been changed to** `%{prefix}`"
+
+### Control command!
+control_set: "<:m_switch:1196007160279203841> **Player control mode has been set to %{toggle}**"
+control_arg_error: "<:m_wrong:1193112008124530738> Invalid argument. Please use %{text}"
+control_already: "<:m_warning:1193112123757305886> Song Notifications are already **%{mode}**"
+
+### Redeem Premium Code command! ###
+redeem_title: "Redeem Premium!"
+
+redeem_desc: |
+  <:m_switch:1196007160279203841>  **Type:** %{type}
+  <:m_ava:1204848463083474954>  **Name:** %{name}
+  <:m_pencil:1204848507220004944>  **Plan:** %{plan}
+  <:m_created:1215293513088892979>  **Expire:** %{expires}
+
+redeem_footer: "Redeem Successfully!"
+redeem_invalid_guild: "<:m_warning:1193112123757305886> Invalid! Please use invalid guildId"
+redeem_invalid_user: "<:m_warning:1193112123757305886> Invalid! Please use invalid userId"
+redeem_invalid_mode: "<:m_warning:1193112123757305886> Invalid! Use `guild` or `user`"
+redeem_invalid: "<:m_wrong:1193112008124530738> **Invalid Premium code. Please use a valid code**"
+redeem_already_guild: "<:m_wrong:1193112008124530738> This guild already in **Premium**"
+redeem_already: "<:m_warning:1193112123757305886> **You are already a Premium User**"
+
+### Redeem logs ###
+display_name: "Display name"
+username: "Username"
+createdAt: "Created At"
+redeemedAt: "Redeemed At"
+expiresAt: "Expires At"
+plan: "Plan"
+title: "Successfully redeem premium User"
+guild_title: "Successfully redeem premium Server"
+code: "History Code"
+
+### Setup Music Req command! ###
+setup_arg_error: "<:m_wrong:1193112008124530738> Invalid! Please use %{text}"
+setup_enable: "<:m_warning:1193112123757305886> **Oops! Music System already exists.**"
+setup_topic: "♪ Those who wish to sing always find a song. ♪"
+setup_msg: "*`Succesfully Setup Music System in`* %{channel}\n```Note: Do not delete any message(s) I've created in order for me to work properly.```"
+
+setup_null: |
+  <:m_wrong:1193112008124530738> **Music System not found!**
+  <:m_blank:1215234569008189450><:m_info:1193100286881964104> **Type `%{prefix}setup` to setup request channel**
+
+setup_deleted: "*`Successfully delete setup channel!`*"
+setup_null_inguild: "<:m_wrong:1193112008124530738> **Music System not found in this server! Ready to delete data**"
+setup_queuemsg: "**Join a voice channel and play songs using name or URL in here!**"
+setup_playembed_author: "No Song Is Currently Playing"
+
+### Reset Guild command! ###
+reset_data_desc: "<:m_oke:1193111935462420531> **Database for this server has been reset**"
+### Reset User data command! ###
+reset_data_user_success: "<:m_oke:1193111935462420531> **Data for your account has been reset**"
+
+### Minecraft Setup ####
+status_mc_create: "*`Succesfully Setup Minecraft  Status in`* %{channel}\n```Note: Status will be updated every 1 minute, if you want to change your status, please delete the channel first.```"
+setup_mc_author: "Minecraft Status"
+setup_mc_players: "__**PLAYERS**__"
+setup_mc_motd: "__**MOTD**__"
+setup_mc_ip: "__**SERVER ADDRESS**__"
+setup_mc_type: "__**TYPE**__"
+setup_mc_thumbnail: "https://cdn.meww.me/madebytragic/mews-mc.webp"
+setup_mc_enable: |
+  <:m_wrong:1193112008124530738> **Oops! Minecraft Status already exists.**
+  <:m_blank:1215234569008189450><:m_info:1193100286881964104> **If you want to change your status, please delete the channel first.**
+setup_mc_title_404: "🔴 NOT FOUND 404"
+setup_mc_badrequest: "🔴 BAD REQUEST 400"
+setup_mc_offline: "🔴 OFFLINE"
+### Minecraft command ###
+mc_ip_notfound: "An unexpected error occurred while checking the server status. Please provide a valid IP/Server Online and try again later."
+mc_ip_invalid: "**The IP `%{ip}` entered is invalid.**"
+
+### Themes command!
+error_themes: "<:m_wrong:1193112008124530738> Invalid... Please try again."
+succes_themes: "**Succesfully changed theme to %{themes}**"
+
+### Last FM Login command!
+lastfm_login_footer: "Notes: This link will expire in %{expired}."
+lastfm_login_title: "Last.fm Login"
+lastfm_login_desc: "Would you like to grant authorization to your [Last.fm](https://www.last.fm/user/romanromannya) account?\nIf yes, please click the button below to start the authorization process."
+lastfm_not_login_desc: "<:m_wrong:1193112008124530738> You are not logged in to Last.fm"
+### Last FM Logout command!
+lastfm_logout_title: "Last.fm Logout"
+lastfm_logout_desc: "<:m_oke:1193111935462420531> You have successfully logout from Last.fm"

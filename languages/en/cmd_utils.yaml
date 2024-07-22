@@ -1,0 +1,88 @@
+
+### Avatar command! ###
+avatar_arg_error: "<:m_wrong:1193112008124530738> Invalid argument. Please use %{text}"
+
+### Kick command! ###
+kick_user_not_found: "That user doesn't exist in this server"
+kick_user_ownerid: "You can't kick that user because they're the server owner"
+kick_user_higher_role: "You can't kick that user because they have a higher role than you"
+kick_bot_higher_role: "You can't kick that user because they have a higher role than me"
+kick_error: "error occurred while trying to kick that user"
+kick_success: "**%{user} has been kicked by %{moderator}**"
+kick_success_dm: |
+  You have been kicked by %{moderator} from the server %{guild}. ```Reason: %{reason}```
+  Contact the server administrator if you have any questions or would like to appeal.
+
+### Ban command! ###
+ban_user_not_found: "That user doesn't exist in this server"
+ban_user_ownerid: "You can't ban that user because they're the server owner"
+ban_user_higher_role: "You can't ban that user because they have a higher role than you"
+ban_bot_higher_role: "You can't ban that user because they have a higher role than me"
+ban_error: "error occurred while trying to ban that user"
+banned_success: "**%{user} has been banned by %{moderator}**"
+ban_success_dm: |
+  You have been banned by %{moderator} from the server %{guild}. ```Reason: %{reason}```
+  Contact the server administrator if you have any questions or would like to appeal.
+
+### Purge command! ###
+purge_invalid_amount: "Please provide a valid number"
+purge_success: "Successfully purged %{amount} messages"
+purge_older_than_14_days: "You can't purge messages older than 14 days"
+purge_error: "Failed to purge messages"
+
+### Cat command #####
+cat_error: "An error occured while sending the image cat! Please try again."
+
+### GitHub command ####
+provide_username: "Oops! Invalid commands.please provide `username`"
+github_nouser: "Could not find a user with this name **%{username}** on GitHub."
+github_error: "An error occurred while processing GitHub. Please try again later."
+
+### Member Info command ####
+memberinfo_arg_error: "<:m_wrong:1193112008124530738> Invalid argument. Please use %{text}"
+guild_not_available: "Guild information is not available."
+
+### Quotes command ####
+provide_categories_quote: "Oops! Invalid commands.please provide category\nAvailable categories: %{categories}"
+invalid_categories_quote: "Invalid category\nAvailable categories: %{categories}"
+quote_error: "An error occured while sending the quote! Please try again."
+
+### User Stats command ####
+user_stats_footer: "♪ Those who wish to sing always find a song."
+command_used: "Commands Used"
+votes_count: "Votes Count"
+tracks_played: "Tracks Played"
+top_artist: "Top Artist"
+top_track: "Top Track"
+
+### user command ###
+user_arg_error: "<:m_wrong:1193112008124530738> Invalid argument. Please use %{text}"
+
+### Ticket Events ###
+setup_ticket_succes: "The ticket has been set up to %{channel} successfully."
+channel_viewable: "The provided channel is not visible to me"
+category_viewable: "The provided category is not visible to me"
+invalid_category: "The provided category is invalid"
+missing_permission: "The bot is missing manage-channels permissions to create a ticket channel"
+invalid_channel_category: "The provided channel or category is invalid"
+ticket_reason: "Provide the reason for creating a ticket"
+ticket_close_user: "You are not allowed to close the ticket."
+ticket_create: "The ticket has been created. Go to %{channel}"
+ticket_create_title: "Wait for staff to respond"
+ticket_create_desc: |
+  Thanks for creating your ticket. Please wait for staff to respond.
+  `NOTE: This ticket has no backup. Please ensure to back up any important information yourself`
+
+### Minecraft Stats Commands! ####
+setup_mc_author: "Minecraft Status"
+setup_mc_thumbnail: "https://cdn.is-a.fun/madebytragic/mews-mc.webp"
+setup_mc_players: "__**PLAYERS**__"
+setup_mc_motd: "__**MOTD**__"
+setup_mc_ip: "__**SERVER ADDRESS**__"
+setup_mc_type: "__**TYPE**__"
+setup_mc_badrequest: "🔴 BAD REQUEST 400"
+setup_mc_title_404: "🔴 NOT FOUND 404"
+setup_mc_offline: "🔴 OFFLINE"
+### Minecraft command ###
+mc_ip_notfound: "An unexpected error occurred while checking the server status. Please provide a valid IP/Server Online and try again later."
+mc_ip_invalid: "**The IP `%{ip}` entered is invalid.**"

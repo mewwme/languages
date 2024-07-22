@@ -1,0 +1,179 @@
+
+### Search command!
+search_desc: "### HEY! Found results for your request"
+search_end_desc2: "### OMG! %{user}, you didn't select a song in time\n**Give it another go!**"
+search_footer: "%{countSong} tracks found"
+search_end_desc1: "## [`%{title}`](%{url}) `%{author}` enjoy it ♥"
+search_placeholder: "Add to queue and play for you ♥"
+search_no_result: "No results found for your search :("
+search_active: "Oops! A search is active. Please wait 30s"
+play_search_track: "## [`%{title}`](%{url}) `%{author}` enjoy it ♥"
+no_songs_playing: "<:m_wrong:1193112008124530738> No song is currently playing!"
+
+### Autoplay command!
+autoplay_off: "<:m_wrong:1193112008124530738> Autoplay is now **Disabled**"
+autoplay_on: "<:m_oke:1193111935462420531> Autoplay is now **Enabled**"
+autoplay_no_songs_playing: "<:m_warning:1193112123757305886> No songs are playing!"
+autoplay_not_supported: |
+  <:m_wrong:1193112008124530738> Autoplay feature is currently **not available** for this source.
+  <:m_blank:1215234569008189450><:m_oke:1193111935462420531> Supported sources: `YouTube`, `YouTube Music`
+
+### ClearQueue command!
+clearqueue_msg: "<:m_bin:1193112832930230272> Queue has been **Cleared**"
+
+### Forward command!
+forward_msg: "<:m_forward:1215286423951900734> **%{user} Forwarded %{title} to** `%{duration}`"
+forward_beyond: "<:m_warning:1193112123757305886> Song is about to end. You can not Forward beyond it!"
+
+### RemoveTrack command!
+playnext_desc: "### %{name} Next To Play ♪"
+playnext_notfound: "<:m_wrong:1193112008124530738> Song not found!"
+
+# Execute when invalid
+no_node: "<:m_warning:1193112123757305886> **No Lavalink server was found. Please try again after 5 Minutes**"
+
+### Join command!
+join_msg: "The player has been successfully created and joined %{channel}"
+join_already: "<:m_warning:1193112123757305886> I am already in %{channel}"
+join_no_in_voice: "<:m_wrong:1193112008124530738> You are not in a voice channel!"
+join_no_same_voice: "<:m_wrong:1193112008124530738> You are not in the same voice channel as me!"
+
+### Loop command!
+loop_current: |
+  <:m_loop:1193113331767185499> **Now Looping %{title}
+  <:m_blank:1215234569008189450><:m_sparkle:1204848989992648704> Enjoy it, %{user}**
+
+loop_all: "<:m_loop:1193113331767185499> **Has been looping QUEUE mode**"
+unloop_all: "<:m_wrong:1193112008124530738> **Looping mode has been DISABLED**"
+loop_invalid: "<:m_warning:1193112123757305886> Invalid Loop mode. Please use **%{mode}**"
+loop_already: "<:m_warning:1193112123757305886> Loop mode is already **%{mode}**"
+
+### Lyrics command!
+provide_lyrics: "<:m_warning:1193112123757305886> Please provide a valid **Song Name**"
+lyrics_title: "Lyrics for **%{song}**"
+lyrics_notfound: "<:m_wrong:1193112008124530738> **Could not find the lyrics for this song!**"
+lyrics_toolong: "**Lyrics too long maks 4048 characters allowed!**"
+
+### Nowplaying command!
+nowplaying_title: "Now playing..."
+nowplaying_desc: "**%{title}**"
+nowplaying_footer: "Queue Left: %{queue} • Loop mode: %{loopmode} • Volume: %{volume}"
+
+nowplaying_author_title: "Author"
+nowplaying_total_duration_title: "Duration"
+nowplaying_request_title: "Requested By"
+
+### Pause command!
+pause_msg: |
+  <:m_pause:1193115141156376647> **The track %{title} is currently paused! 
+  <:m_blank:1215234569008189450><:m_sparkle:1204848989992648704> It was paused by %{user}.**
+
+### Play command!
+play_no_same_voice: "<:m_wrong:1193112008124530738> You are not in the same voice channel as me!"
+play_no_in_voice: "<:m_wrong:1193112008124530738> You are not in a voice channel!"
+play_arg: "<:m_warning:1193112123757305886> Please provide a valid song name or URL!"
+play_emoji: "<:m_wrong:1193112008124530738> **Oops! This is emoji, You can not play songs using emoji**"
+play_match: "<:m_wrong:1193112008124530738> **Oops! Sorry, Song not found! Please try again**"
+
+play_track: "### %{title} enjoy it ♥"
+
+play_playlist: |
+  ## That was easy!
+  ### Your [`playlist`](%{title}) was added to the queue
+
+play_result: "### %{title} enjoy it ♥"
+
+play_queue_max: |
+  <:m_wrong:1193112008124530738> OMG!>,.,< The queue is too long. Max %{limitqueue} songs.
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> Upgrade to [**premium**](%{patreon}) for unlimited queue access!
+
+play_playlist_max: |
+  <:m_wrong:1193112008124530738> OMG!>,.,< The playlist is too long. Max %{limitqueue} songs.
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> Upgrade to [**premium**](%{patreon}) for unlimited playlist access!
+
+### Previous command!
+previous_notfound: |
+  <:m_warning:1193112123757305886> **No Previous song found in the queue! 
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> Why not </play:1219594140560396421> more tracks and keep the music going?**
+previous_msg: |
+  <:m_replay:1215286916014931998>  **Back to the previous song! 
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> Now playing %{title}**
+
+### Queue command!
+queue_number_invalid: "<:m_warning:1193112123757305886> Please provide a valid number!"
+queue_title: "Queue playing..."
+queue_description: "**%{title}**\n\n**Rest of Queue %{rest}**"
+queue_footer: "Page • %{page}/%{pages} | Songs • %{queue_lang} | Total Duration • %{duration}"
+queue_notnumber: "<:m_warning:1193112123757305886> Please provide a valid page number!"
+queue_page_notfound: "<:m_warning:1193112123757305886> There are only **%{page} Pages**"
+
+### RemoveTrack command!
+removetrack_number_invalid: "<:m_warning:1193112123757305886> Please provide a valid number!"
+removetrack_already: "<:m_wrong:1193112008124530738> **I cannot Remove a song that is already playing**"
+removetrack_notfound: "<:m_warning:1193112123757305886> **Sorry %{user}, Song not found!**"
+removetrack_desc: "<:m_bin:1193112832930230272> **Removed %{title} from the Queue!**"
+
+### Replay command!
+replay_msg: "<:m_replay:1215286916014931998> **%{user} Hits Replay on %{title}**"
+
+### Resume command!
+resume_msg: |
+  <:m_play:1193113362293338112> **Playback Resumed %{title},
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> Enjoy %{user}**
+
+### Rewind command!
+rewind_msg: "<:m_rewind:1215286625160921138> **%{user} Rewinded %{title} to** `%{duration}`"
+rewind_beyond: "<:m_warning:1193112123757305886> Song just started. You can not Rewind beyond it!"
+
+### Seek command!
+seek_msg: "<:m_seek:1215287353912860682> **%{user} Seeked %{title} to** `%{duration}`"
+seek_beyond: "<:m_warning:1193112123757305886> Sorry %{user}, You can not Seek beyond the song duration!"
+seek_invalid: "<:m_warning:1193112123757305886> Invalid Seek duration. Please use a valid timestamp. Example: **1:30**"
+
+### Shuffle command!
+shuffle_title: "Shuffles the Queue"
+
+### Skip command!
+skip_notfound: |
+  <:m_warning:1193112123757305886> **No song was found to Skip to! Seems like there's nothing to skip to. 
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> Let's </play:1219594140560396421> keep the music going by adding more tracks!**
+skip_msg: "<:m_forward:1215286423951900734> **%{title} Has been Skipped**"
+skip_number_invalid: "<:m_warning:1193112123757305886> Please provide a valid number!"
+
+### Stop command!
+stop_msg: <:m_stop:1193113393561878548> **%{title} Has been stopped**
+
+### Volume command!
+volume_number_invalid: "<:m_warning:1193112123757305886> Please provide a valid number!"
+volume_invalid: "<:m_warning:1193112123757305886> Invalid Volume. Please use a number between **1** and **100**"
+volume_msg: "<:m_vol:1215288075589132298> **Volume set to %{volume}%, Enjoy %{user}**"
+volume_max: "<:m_warning:1193112123757305886> **Volume is already at max 100%**"
+
+### play source commands
+url_no_allowed: "<:m_wrong:1193112008124530738> Please use the song name/artist name (url no allowed)"
+play_arg_source: "<:m_warning:1193112123757305886> Please provide a valid song name/artists!"
+
+### Youtube Music Music source commands ###
+play_result_youtube_music: "%{ytmEmoji} Added **%{title}** to queue"
+play_track_youtube_music: "%{ytmEmoji} Added **%{title}** to queue"
+play_playlist_youtube_music: "%{ytmEmoji} Your **[`playlist`](%{title})** was added to the queue"
+
+### Spotify source commands ###
+play_result_spotify: "%{spotifyEmoji} Added **%{title}** to queue"
+play_track_spotify: "%{spotifyEmoji} Added **%{title}** to queue"
+play_playlist_spotify: "%{spotifyEmoji} Your **[`playlist`](%{title})** was added to the queue"
+
+### Apple Music source commands ###
+play_result_apple: "%{appleEmoji} Added **%{title}** to queue"
+play_track_apple: "%{appleEmoji} Added **%{title}** to queue"
+play_playlist_apple: "%{appleEmoji} Your **[`playlist`](%{title})** was added to the queue"
+
+### Deezer Music source commands ###
+play_result_deezer: "%{deezerEmoji} Added **%{title}** to queue"
+play_track_deezer: "%{deezerEmoji} Added **%{title}** to queue"
+play_playlist_deezer: "%{deezerEmoji} Your **[`playlist`](%{title})** was added to the queue"
+
+### Soundcloud Music source commands ###
+play_result_soundcloud: "%{soundcloudEmoji} Added **%{title}** to queue"
+play_track_soundcloud: "%{soundcloudEmoji} Added **%{title}** to queue"
+play_playlist_soundcloud: "%{soundcloudEmoji} Your **[`playlist`](%{title})** was added to the queue"

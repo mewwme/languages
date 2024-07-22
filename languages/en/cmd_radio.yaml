@@ -1,0 +1,19 @@
+
+### Radio Commands
+radio_number_invalid: "<:m_wrong:1193112008124530738> Please provide a valid number!"
+radio_no_voice: "<:m_wrong:1193112008124530738> **You need to be in the same voice channel as me!"
+available_radio: "**Available Radio Stations From Indonesia**"
+prefix: "To play the radio, command: %{prefix}radio (sequence_number)"
+radio_match: "<:m_wrong:1193112008124530738> This radio station has died, link error or broken. Please **/report** to report it."
+radio_play_track: "**<:m_singing:1196006929932234782> Started Playing [%{title}](%{serversupport}) Enjoy it!**"
+
+
+### Lofi Commands ###
+lofi_no_voice: "<:m_wrong:1193112008124530738> **You need to be in the same voice channel as me!"
+lofi_match: "<:m_wrong:1193112008124530738> This lofi station has died, link error or broken. Please **/report** to report it."
+
+lofi_playlist: "**<:m_singing:1196006929932234782> Started Playing [%{stations}](%{serversupport}) Enjoy it!**"
+
+lofi_track: "**<:m_singing:1196006929932234782> Started Playing [%{stations}](%{serversupport}) Enjoy it!**"
+
+lofi_track_result: "**<:m_singing:1196006929932234782> Started Playing [%{stations}](%{serversupport}) Enjoy it!**"

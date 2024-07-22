@@ -1,0 +1,87 @@
+
+# maintenance
+maintenance_title: "Maintenance"
+maintenance_desc: |
+  %{bot} is currently undergoing maintenance. Please try again later. 
+  For further information, please join our [support server](%{serversupport}). Thank you!
+  
+# Getting error!
+unexpected_error: "<:m_warning:1193112123757305886> Something went wrong. Please try again later!"
+
+### Rate limit!
+ratelimit: "<:m_warning:1193112123757305886> You are performing actions too quickly. Please wait for **%{time} Seconds**"
+
+# No permission!
+no_perms: |
+  <:m_warning:1193112123757305886> I don't have **%{perm}** permission!
+  <:m_blank:1215234569008189450><:m_oke:1193111935462420531> Please grant me the **%{perm}** permission to execute this command.
+
+no_manage_guild_perms: |
+  <:m_warning:1193112123757305886> This command requires **%{perm}** permission!
+  <:m_blank:1215234569008189450><:m_wrong:1193112008124530738> you don't have permission to execute this command!
+
+no_admin_perms: |
+  <:m_warning:1193112123757305886> This command requires **%{perm}** permission!
+  <:m_blank:1215234569008189450><:m_wrong:1193112008124530738> you don't have permission to execute this command!
+
+# No permission!
+no_perms_channel: "<:m_warning:1193112123757305886> I don't have **%{perm}** permission in %{channel} to execute this command!"
+
+# Execute when invalid
+no_node: "<:m_warning:1193112123757305886> **No Lavalink server was found. Please try again after 5 Minutes**"
+
+# Client owner!
+owner_only: "<:m_warning:1193112123757305886> This command can only be executed by the bot **Owner**"
+
+# Need to join voice & same voice to use command!
+no_player: "<:m_warning:1193112123757305886> No song is currently playing!"
+no_same_voice: "<:m_wrong:1193112008124530738> You are not in the same voice channel as me!"
+no_in_voice: "<:m_wrong:1193112008124530738> You are not in a voice channel!"
+
+# Blacklist User
+blacklist_user: |
+  <:m_warning:1193112123757305886> It looks like you are blacklisted! You are not allowed to use commands.
+  <:m_blank:1215234569008189450><:m_oke:1193111935462420531> Please contact **[developer](%{serversupport})** if you think this is an error.
+
+# Blacklist Guild
+blacklist_guild: |
+  <:m_warning:1193112123757305886> This server is blacklisted! You are not allowed to use commands in this server.
+  <:m_blank:1215234569008189450><:m_oke:1193111935462420531> Please contact **[developer](%{serversupport})** if you think this is an error.
+
+# Mode
+enable: "Enabled"
+disable: "Disabled"
+
+### No user premium Event!
+no_user_premium_button: "Upgrade to premium"
+no_user_premium_plan_author: "No User premium plan"
+no_user_premium_plan_desc: "Oops! This command can only be executed by the Premium Users. it looks like you don't have a premium plan yet."
+
+### No guild premium Event!
+no_guild_premium_button: "Upgrade to premium"
+no_guild_premium_plan_author: "No Server premium plan"
+no_guild_premium_plan_desc: "Oops! This command can only be executed by the Premium Server. it looks like you don't have a premium plan yet."
+
+# Top.gg error
+topgg_error_author: "Vote Top.gg error"
+topgg_error_desc: |
+  An error occurred while verifying your vote on top.gg, possibly due to Top.gg being down. Please try again in 5-10 minutes.
+  If this issue persists, please contact our [support server](%{serversupport}) for further assistance.
+
+# Top.gg unvote
+topgg_unvote_button: "Vote to unlock"
+premium_button: "Upgrade to premium"
+topgg_unvote_author: "Vote Required"
+topgg_unvote_desc: |
+  You need to vote for me to access this command! Don't worry voting will only take 10 seconds, and it's free!
+
+  Alternatively, you can also purchase the premium from our [Patreon](%{patreon}) to bypass this message forever & Enhance your experience by unlocking cool features and commands with great quality improvement.
+
+### Mention Desc ###
+mention_content: "Hey %{user}, you can ping me to use commands too! Type </help:1219594142951149634> to view my slash commands ♡"
+mention_desc: |
+  ### My Prefix for this server is `%{prefix}`
+  - **Support:** [Link](%{support})
+  - **Vote:** [Link](%{votelink})
+  - **Website:** [Link](%{website})
+  Compatible with <:beam:1250113713080635473> <:besp:1250034413404946492> <:besc:1250034368685281330> <:bedz:1250034572184260701> <:beytm:1250035592742305915>
