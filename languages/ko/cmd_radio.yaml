@@ -1,0 +1,17 @@
+### Radio Command
+radio_number_invalid: "<:m_wrong:1193112008124530738> 유효한 번호를 입력해 주세요!"
+radio_no_voice: "<:m_wrong:1193112008124530738> **저와 동일한 음성 채널에 있어야 합니다!**"
+available_radio: "**인도네시아에서 이용 가능한 라디오 방송국**"
+prefix: "라디오를 재생하려면 명령어를 사용하세요: %{prefix}radio (순서_번호)"
+radio_match: "<:m_wrong:1193112008124530738> 이 라디오 방송국은 비활성화 되어 있거나 링크가 잘못되었거나 손상되었습니다. **/report**를 통해 신고해 주세요."
+radio_play_track: "**<:m_singing:1196006929932234782> 재생 시작 [%{title}](%{serversupport}) 즐기세요!**"
+
+### Lofi Command
+lofi_no_voice: "<:m_wrong:1193112008124530738> **저와 동일한 음성 채널에 있어야 합니다!**"
+lofi_match: "<:m_wrong:1193112008124530738> 이 lofi 방송국은 비활성화 되어 있거나 링크가 잘못되었거나 손상되었습니다. **/report**를 통해 신고해 주세요."
+
+lofi_playlist: "**<:m_singing:1196006929932234782> 재생 시작 [%{stations}](%{serversupport}) 즐기세요!**"
+
+lofi_track: "**<:m_singing:1196006929932234782> 재생 시작 [%{stations}](%{serversupport}) 즐기세요!**"
+
+lofi_track_result: "**<:m_singing:1196006929932234782> 재생 시작 [%{stations}](%{serversupport}) 즐기세요!**"
