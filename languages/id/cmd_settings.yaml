@@ -1,0 +1,104 @@
+### Perintah 24/7!
+247_on: "<:m_oke:1193111935462420531> Mode 24/7 sekarang **Aktif**"
+247_off: "<:m_wrong:1193112008124530738> Mode 24/7 sekarang **Nonaktif**"
+247_already: "<:m_warning:1193112123757305886> Mode 24/7 sudah **%{mode}**"
+247_arg_error: "<:m_wrong:1193112008124530738> Mode 24/7 tidak valid. Harap gunakan %{text}"
+247_no_in_voice: "<:m_wrong:1193112008124530738> Anda tidak berada di saluran suara!"
+
+### Perintah Set Language! ###
+provide_lang: "<:m_wrong:1193112008124530738> **Bahasa tidak valid. Harap gunakan** `%{languages}`"
+lang_set: "<:m_lang:1215299274833666148> **Bahasa telah diatur ke** `%{language}`"
+lang_change: "<:m_lang:1215299274833666148> **Bahasa telah diubah menjadi** `%{language}`"
+
+### Perintah Prefix! ###
+prefix_arg: "<:m_wrong:1193112008124530738> Harap berikan Prefix yang valid!"
+prefix_length: "<:m_wrong:1193112008124530738> **Prefix tidak boleh lebih dari 10 Karakter**"
+prefix_set: "<:m_magic:1204853015585226855> **Prefix telah diatur ke** `%{prefix}`"
+prefix_change: "<:m_magic:1204853015585226855> **Prefix telah diubah menjadi** `%{prefix}`"
+
+### Perintah Control!
+control_set: "<:m_switch:1196007160279203841> **Mode kontrol pemutar telah diatur ke %{toggle}**"
+control_arg_error: "<:m_wrong:1193112008124530738> Argumen tidak valid. Harap gunakan %{text}"
+control_already: "<:m_warning:1193112123757305886> Pemberitahuan lagu sudah **%{mode}**"
+
+### Perintah Redeem Premium Code! ###
+redeem_title: "Tukar Premium!"
+
+redeem_desc: |
+  <:m_switch:1196007160279203841>  **Tipe:** %{type}
+  <:m_ava:1204848463083474954>  **Nama:** %{name}
+  <:m_pencil:1204848507220004944>  **Rencana:** %{plan}
+  <:m_created:1215293513088892979>  **Kedaluwarsa:** %{expires}
+
+redeem_footer: "Tukar Berhasil!"
+redeem_invalid_guild: "<:m_warning:1193112123757305886> Tidak Valid! Harap gunakan guildId yang valid"
+redeem_invalid_user: "<:m_warning:1193112123757305886> Tidak Valid! Harap gunakan userId yang valid"
+redeem_invalid_mode: "<:m_warning:1193112123757305886> Tidak Valid! Gunakan `guild` atau `user`"
+redeem_invalid: "<:m_wrong:1193112008124530738> **Kode Premium tidak valid. Harap gunakan kode yang valid**"
+redeem_already_guild: "<:m_wrong:1193112008124530738> Guild ini sudah dalam **Premium**"
+redeem_already: "<:m_warning:1193112123757305886> **Anda sudah menjadi Pengguna Premium**"
+
+### Log Redeem ###
+display_name: "Nama Tampilan"
+username: "Nama Pengguna"
+createdAt: "Dibuat Pada"
+redeemedAt: "Ditukar Pada"
+expiresAt: "Kedaluwarsa Pada"
+plan: "Rencana"
+title: "Berhasil menukarkan premium User"
+guild_title: "Berhasil menukarkan premium Server"
+code: "Riwayat Kode"
+
+### Perintah Setup Music Req! ###
+setup_arg_error: "<:m_wrong:1193112008124530738> Tidak valid! Harap gunakan %{text}"
+setup_enable: "<:m_warning:1193112123757305886> **Ups! Sistem Musik sudah ada.**"
+setup_topic: "♪ Mereka yang ingin bernyanyi selalu menemukan sebuah lagu. ♪"
+setup_msg: "*`Berhasil Menyiapkan Sistem Musik di`* %{channel}\n```Catatan: Jangan hapus pesan apapun yang saya buat agar saya bisa berfungsi dengan baik.```"
+
+setup_null: |
+  <:m_wrong:1193112008124530738> **Sistem Musik tidak ditemukan!**
+  <:m_blank:1215234569008189450><:m_info:1193100286881964104> **Ketik `%{prefix}setup` untuk menyiapkan saluran permintaan**
+
+setup_deleted: "*`Berhasil menghapus saluran setup!`*"
+setup_null_inguild: "<:m_wrong:1193112008124530738> **Sistem Musik tidak ditemukan di server ini! Siap untuk menghapus data**"
+setup_queuemsg: "**Bergabunglah dengan saluran suara dan mainkan lagu menggunakan nama atau URL di sini!**"
+setup_playembed_author: "Tidak Ada Lagu Yang Sedang Diputar"
+
+### Perintah Reset Guild! ###
+reset_data_desc: "<:m_oke:1193111935462420531> **Database untuk server ini telah direset**"
+
+### Perintah Reset Data Pengguna! ###
+reset_data_user_success: "<:m_oke:1193111935462420531> **Data untuk akun Anda telah direset**"
+
+### Setup Minecraft ###
+status_mc_create: "*`Berhasil Menyiapkan Status Minecraft di`* %{channel}\n```Catatan: Status akan diperbarui setiap 1 menit, jika Anda ingin mengubah status Anda, harap hapus saluran terlebih dahulu.```"
+setup_mc_author: "Status Minecraft"
+setup_mc_players: "__**PEMAIN**__"
+setup_mc_motd: "__**MOTD**__"
+setup_mc_ip: "__**ALAMAT SERVER**__"
+setup_mc_type: "__**TIPE**__"
+setup_mc_thumbnail: "https://cdn.meww.me/madebytragic/mews-mc.webp"
+setup_mc_enable: |
+  <:m_wrong:1193112008124530738> **Ups! Status Minecraft sudah ada.**
+  <:m_blank:1215234569008189450><:m_info:1193100286881964104> **Jika Anda ingin mengubah status Anda, harap hapus saluran terlebih dahulu.**
+setup_mc_title_404: "🔴 TIDAK DITEMUKAN 404"
+setup_mc_badrequest: "🔴 PERMINTAAN BURUK 400"
+setup_mc_offline: "🔴 OFFLINE"
+
+### Perintah Minecraft ###
+mc_ip_notfound: "Terjadi kesalahan yang tidak terduga saat memeriksa status server. Harap berikan IP/Server yang valid dan coba lagi nanti."
+mc_ip_invalid: "**IP `%{ip}` yang dimasukkan tidak valid.**"
+
+### Perintah Themes!
+error_themes: "<:m_wrong:1193112008124530738> Tidak valid... Harap coba lagi."
+succes_themes: "**Berhasil mengubah tema ke %{themes}**"
+
+### Perintah Last FM Login!
+lastfm_login_footer: "Catatan: Tautan ini akan kedaluwarsa dalam %{expired}."
+lastfm_login_title: "Login Last.fm"
+lastfm_login_desc: "Apakah Anda ingin memberikan otorisasi ke akun [Last.fm](https://www.last.fm/user/romanromannya) Anda?\nJika iya, silakan klik tombol di bawah untuk memulai proses otorisasi."
+lastfm_not_login_desc: "<:m_wrong:1193112008124530738> Anda tidak masuk ke Last.fm"
+
+### Perintah Last FM Logout!
+lastfm_logout_title: "Logout Last.fm"
+lastfm_logout_desc: "<:m_oke:1193111935462420531> Anda telah berhasil logout dari Last.fm"

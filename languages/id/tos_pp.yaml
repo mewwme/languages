@@ -1,0 +1,39 @@
+### privacy policy commands
+privacy_title: "Kebijakan Privasi %{bot}"
+privacy_label: Kebijakan Privasi
+privacy_desc: |
+  **Perjanjian Pengguna**
+  Menggunakan [%{bot}](%{serversupport}) ("bot") di server memerlukan pengumpulan data pengguna tertentu. Data yang dikumpulkan termasuk tetapi tidak terbatas pada ID Discord pengguna, nama pengguna Discord, dan peran server. Menggunakan Bot dianggap sebagai penerimaan syarat kebijakan ini.
+
+  **Akses Data**
+  Akses data hanya diizinkan untuk pengembang bot dan layanan hosting dan hanya dalam lingkup yang diperlukan untuk pengembangan, pengujian, dan penerapan fitur bot. Data tidak dijual, diberikan, atau dibagikan kepada pihak ketiga mana pun, kecuali yang diwajibkan oleh hukum atau perjanjian Ketentuan Layanan. Anda dapat melihat data Anda atas permintaan dari [pengembang](%{developer}).
+
+  **Penyimpanan Data**
+  Data disimpan di basis data [MongoDB Atlas](https://www.mongodb.com/). Basis data tersebut diamankan untuk mencegah akses eksternal. Namun, tidak ada jaminan yang diberikan, dan pemilik Bot tidak bertanggung jawab atas pelanggaran data yang tidak disengaja atau berbahaya. Jika ada akses data yang tidak sah, staf server akan memberitahu pengguna melalui Server Dukungan.
+
+  **Hak Pengguna**
+  Kapan saja, Anda memiliki hak untuk meminta melihat data akun Discord Anda. Anda memiliki hak untuk meminta penghapusan Data yang relevan. Untuk melakukannya, pengguna harus mengajukan permintaan melalui Server Dukungan.
+
+  **Pertanyaan**
+  Jika Anda memiliki pertanyaan atau kekhawatiran tentang data yang mungkin disimpan dari akun Anda, silakan hubungi [staf](%{serversupport}). Untuk informasi lebih lanjut, periksa Ketentuan Layanan Discord.
+
+### The following terms and conditions apply to the use of the bot.
+### terms of services commands
+termsofservice_title: "Ketentuan Layanan %{bot}"
+tos_label: "Ketentuan Layanan"
+termsofservice_desc: |
+  **Perjanjian Penggunaan**
+  Dengan mengundang [%{bot}](%{serversupport}) ("bot") dan menggunakan fiturnya, Anda setuju dengan Ketentuan Layanan dan Kebijakan Privasi bot.
+
+  Anda mengakui bahwa Anda dapat menggunakan bot secara bebas di Server Discord mana pun yang Anda bagikan. Anda dapat mengundangnya ke Server mana pun di mana Anda memiliki hak "Kelola Server", dan hak ini dapat dicabut jika Anda melanggar ketentuan layanan atau kebijakan privasi bot ini atau Ketentuan Layanan, Kebijakan Privasi, atau Pedoman Komunitas Discord Inc.
+
+  Melalui undangan, bot dapat mengumpulkan data tertentu seperti yang dijelaskan dalam Kebijakan Privasinya. Penggunaan data ini dimaksudkan untuk fungsi inti bot, seperti menjalankan perintah.
+
+  **Afiliasi**
+  Bot tidak berafiliasi dengan, didukung oleh, atau dibuat oleh Discord Inc. Koneksi langsung ke Discord atau salah satu objek Merek Dagangnya bersifat kebetulan semata. Kami tidak mengklaim kepemilikan hak cipta atas aset, merek dagang, atau kekayaan intelektual Discord.
+
+  **Pengguna di Bawah Umur**
+  Bot tidak diizinkan untuk pengguna di bawah umur 13 tahun atau di bawah persetujuan hukum negara mereka. Ini mematuhi Ketentuan Layanan Discord. Tidak ada informasi yang akan disimpan dari pengguna di bawah umur secara sengaja. Jika ditemukan bahwa seorang pengguna di bawah umur, kami akan mengambil semua tindakan yang diperlukan untuk menghapus data yang disimpan.
+
+  **Kewajiban**
+  Pengembang dan pemilik bot tidak dapat dimintai tanggung jawab atas individu yang melanggar Ketentuan ini kapan saja. Hak untuk memperbarui ketentuan ini dicadangkan sesuai kebijakan kami, memberikan periode 1 Minggu (7 hari) untuk memilih keluar dari ketentuan ini. Seorang pengguna dapat memilih keluar dengan menghapus bot dari server mana pun di mana pengguna memiliki hak untuk menghapus bot.

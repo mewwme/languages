@@ -1,0 +1,33 @@
+### PLAYER MUSIC ###
+player_title: "**%{title}**"
+player_desc: "%{title}"
+no_same_voice: "<:m_wrong:1193112008124530738> Anda tidak berada di saluran suara yang sama dengan saya!"
+filter_already: "<:m_warning:1193112123757305886> **Filter %{name} sudah diaktifkan**"
+filter_reset_on: "<:m_oke:1193111935462420531> **Filter telah Direset**"
+filter_reset_already: "<:m_warning:1193112123757305886> **Filter sudah pernah Direset**"
+no_player_filter: "<:m_warning:1193112123757305886> Tidak ada lagu yang sedang diputar!"
+filter_menu_on: |
+  <:m_singing:1196006929932234782> **Filter %{name} diaktifkan!** 
+  <:m_blank:1215234569008189450><:m_sparkle:1204848989992648704> **Musik Anda akan terdengar semakin keren sekarang!**
+
+player_get_exception: "Uh-oh! Sepertinya ada kendala dengan lagu ini. Ingin saya coba lagi?"
+player_track_error: "Lagu mengalami masalah, Bisakah Anda mencoba sekali lagi?"
+player_track_stuck: "Saya sangat sedih :(, lagu terjebak. Mungkin mencoba lagi akan membuat kita bahagia?"
+queue_end_desc: |
+  <:m_sparkle:1204848989992648704> Semua lagu telah diputar! Butuh lebih banyak beat untuk menjaga ritme tetap hidup? 
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> Mari </play:1219594140560396421> lebih banyak lagu dan lanjutkan suasana pesta!
+
+  <:m_prem:1193109484688642118> Aktifkan </247:1219594143903256628> untuk menjaga groove tetap kuat!
+
+
+leave_pause: "Karena kalian semua meninggalkan saya sendirian :( Pemutar telah dijeda."
+leave_resume: "Karena ada yang bergabung dengan saya, pemutar telah dilanjutkan."
+
+player_end: |
+  <:m_warning:1193112123757305886> **Saluran telah kosong selama hampir 15 menit, jadi saya memutuskan untuk pergi karena saya tidak suka sendirian!
+
+  <:m_sparkle:1204848989992648704> Ingin saya tetap di saluran meskipun kosong? 
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> Anda dapat menggunakan perintah </247:1219594143903256628> untuk itu!**
+
+### Last FM Scrobble ###
+expired_login_session: "Hai %{user}, Sesi Last.fm Anda telah kedaluwarsa atau tidak valid.\nSilakan otentikasi ulang untuk terus menggunakan fitur scrobble."

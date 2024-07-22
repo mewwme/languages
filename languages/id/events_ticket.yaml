@@ -1,0 +1,14 @@
+### Ticket Events ###
+setup_ticket_succes: "Tiket telah diatur ke %{channel} dengan sukses."
+channel_viewable: "Saluran yang diberikan tidak terlihat oleh saya"
+category_viewable: "Kategori yang diberikan tidak terlihat oleh saya"
+invalid_category: "Kategori yang diberikan tidak valid"
+missing_permission: "Bot tidak memiliki izin manage-channels untuk membuat saluran tiket"
+invalid_channel_category: "Saluran atau kategori yang diberikan tidak valid"
+ticket_reason: "Berikan alasan untuk membuat tiket"
+ticket_close_user: "Anda tidak diizinkan untuk menutup tiket."
+ticket_create: "Tiket telah dibuat. Pergi ke %{channel}"
+ticket_create_title: "Tunggu staf untuk merespons"
+ticket_create_desc: |
+  Terima kasih telah membuat tiket Anda. Harap tunggu staf untuk merespons.
+  `CATATAN: Tiket ini tidak memiliki cadangan. Harap pastikan untuk mencadangkan informasi penting Anda sendiri`

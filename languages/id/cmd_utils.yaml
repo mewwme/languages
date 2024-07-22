@@ -1,0 +1,87 @@
+### Avatar command! ###
+avatar_arg_error: "<:m_wrong:1193112008124530738> Argumen tidak valid. Silakan gunakan %{text}"
+
+### Kick command! ###
+kick_user_not_found: "Pengguna tersebut tidak ada di server ini"
+kick_user_ownerid: "Anda tidak dapat menendang pengguna tersebut karena mereka adalah pemilik server"
+kick_user_higher_role: "Anda tidak dapat menendang pengguna tersebut karena mereka memiliki peran yang lebih tinggi daripada Anda"
+kick_bot_higher_role: "Anda tidak dapat menendang pengguna tersebut karena mereka memiliki peran yang lebih tinggi daripada saya"
+kick_error: "terjadi kesalahan saat mencoba menendang pengguna tersebut"
+kick_success: "**%{user} telah ditendang oleh %{moderator}**"
+kick_success_dm: |
+  Anda telah ditendang oleh %{moderator} dari server %{guild}. ```Alasan: %{reason}```
+  Hubungi administrator server jika Anda memiliki pertanyaan atau ingin mengajukan banding.
+
+### Ban command! ###
+ban_user_not_found: "Pengguna tersebut tidak ada di server ini"
+ban_user_ownerid: "Anda tidak dapat membanned pengguna tersebut karena mereka adalah pemilik server"
+ban_user_higher_role: "Anda tidak dapat membanned pengguna tersebut karena mereka memiliki peran yang lebih tinggi daripada Anda"
+ban_bot_higher_role: "Anda tidak dapat membanned pengguna tersebut karena mereka memiliki peran yang lebih tinggi daripada saya"
+ban_error: "terjadi kesalahan saat mencoba membanned pengguna tersebut"
+banned_success: "**%{user} telah dibanned oleh %{moderator}**"
+ban_success_dm: |
+  Anda telah dibanned oleh %{moderator} dari server %{guild}. ```Alasan: %{reason}```
+  Hubungi administrator server jika Anda memiliki pertanyaan atau ingin mengajukan banding.
+
+### Purge command! ###
+purge_invalid_amount: "Silakan berikan angka yang valid"
+purge_success: "Berhasil menghapus %{amount} pesan"
+purge_older_than_14_days: "Anda tidak dapat menghapus pesan yang lebih tua dari 14 hari"
+purge_error: "Gagal menghapus pesan"
+
+### Cat command #####
+cat_error: "Terjadi kesalahan saat mengirim gambar kucing! Silakan coba lagi."
+
+### GitHub command ####
+provide_username: "Oops! Perintah tidak valid. Silakan berikan `username`"
+github_nouser: "Tidak dapat menemukan pengguna dengan nama **%{username}** di GitHub."
+github_error: "Terjadi kesalahan saat memproses GitHub. Silakan coba lagi nanti."
+
+### Member Info command ####
+memberinfo_arg_error: "<:m_wrong:1193112008124530738> Argumen tidak valid. Silakan gunakan %{text}"
+guild_not_available: "Informasi guild tidak tersedia."
+
+### Quotes command ####
+provide_categories_quote: "Oops! Perintah tidak valid. Silakan berikan kategori\nKategori yang tersedia: %{categories}"
+invalid_categories_quote: "Kategori tidak valid\nKategori yang tersedia: %{categories}"
+quote_error: "Terjadi kesalahan saat mengirim kutipan! Silakan coba lagi."
+
+### User Stats command ####
+user_stats_footer: "♪ Mereka yang ingin bernyanyi selalu menemukan lagu. ♪"
+command_used: "Perintah Digunakan"
+votes_count: "Jumlah Suara"
+tracks_played: "Lagu yang Diputar"
+top_artist: "Artis Teratas"
+top_track: "Lagu Teratas"
+
+### user command ###
+user_arg_error: "<:m_wrong:1193112008124530738> Argumen tidak valid. Silakan gunakan %{text}"
+
+### Ticket Events ###
+setup_ticket_succes: "Tiket telah diatur ke %{channel} dengan sukses."
+channel_viewable: "Saluran yang diberikan tidak terlihat oleh saya"
+category_viewable: "Kategori yang diberikan tidak terlihat oleh saya"
+invalid_category: "Kategori yang diberikan tidak valid"
+missing_permission: "Bot tidak memiliki izin manage-channels untuk membuat saluran tiket"
+invalid_channel_category: "Saluran atau kategori yang diberikan tidak valid"
+ticket_reason: "Berikan alasan untuk membuat tiket"
+ticket_close_user: "Anda tidak diizinkan untuk menutup tiket."
+ticket_create: "Tiket telah dibuat. Pergi ke %{channel}"
+ticket_create_title: "Tunggu staf untuk merespons"
+ticket_create_desc: |
+  Terima kasih telah membuat tiket Anda. Harap tunggu staf untuk merespons.
+  `CATATAN: Tiket ini tidak memiliki cadangan. Harap pastikan untuk mencadangkan informasi penting Anda sendiri`
+
+### Minecraft Stats Commands! ####
+setup_mc_author: "Status Minecraft"
+setup_mc_thumbnail: "https://cdn.is-a.fun/madebytragic/mews-mc.webp"
+setup_mc_players: "__**PEMAIN**__"
+setup_mc_motd: "__**MOTD**__"
+setup_mc_ip: "__**ALAMAT SERVER**__"
+setup_mc_type: "__**TIPE**__"
+setup_mc_badrequest: "🔴 PERMINTAAN BURUK 400"
+setup_mc_title_404: "🔴 TIDAK DITEMUKAN 404"
+setup_mc_offline: "🔴 OFFLINE"
+### Minecraft command ###
+mc_ip_notfound: "Terjadi kesalahan yang tidak terduga saat memeriksa status server. Harap berikan IP/Server yang valid dan coba lagi nanti."
+mc_ip_invalid: "**IP `%{ip}` yang dimasukkan tidak valid.**"

@@ -1,0 +1,179 @@
+### Perintah Pencarian!
+search_desc: "### HEY! Hasil ditemukan untuk permintaanmu"
+search_end_desc2: "### OMG! %{user}, kamu tidak memilih lagu tepat waktu\n**Coba lagi!**"
+search_footer: "%{countSong} lagu ditemukan"
+search_end_desc1: "## [`%{title}`](%{url}) `%{author}` nikmati ♥"
+search_placeholder: "Tambahkan ke antrean dan mainkan untukmu ♥"
+search_no_result: "Tidak ada hasil ditemukan untuk pencarianmu :("
+search_active: "Oops! Pencarian sedang aktif. Harap tunggu 30 detik"
+play_search_track: "## [`%{title}`](%{url}) `%{author}` nikmati ♥"
+no_songs_playing: "<:m_wrong:1193112008124530738> Tidak ada lagu yang sedang diputar saat ini!"
+
+### Perintah Autoplay!
+autoplay_off: "<:m_wrong:1193112008124530738> Autoplay kini **Dinonaktifkan**"
+autoplay_on: "<:m_oke:1193111935462420531> Autoplay kini **Diaktifkan**"
+autoplay_no_songs_playing: "<:m_warning:1193112123757305886> Tidak ada lagu yang diputar!"
+autoplay_not_supported: |
+  <:m_wrong:1193112008124530738> Fitur autoplay saat ini **tidak tersedia** untuk sumber ini.
+  <:m_blank:1215234569008189450><:m_oke:1193111935462420531> Sumber yang didukung: `YouTube`, `YouTube Music`
+
+### Perintah ClearQueue!
+clearqueue_msg: "<:m_bin:1193112832930230272> Antrean telah **Dikosongkan**"
+
+### Perintah Forward!
+forward_msg: "<:m_forward:1215286423951900734> **%{user} Meneruskan %{title} ke** `%{duration}`"
+forward_beyond: "<:m_warning:1193112123757305886> Lagu hampir selesai. Kamu tidak bisa Meneruskan lebih dari itu!"
+
+### Perintah RemoveTrack!
+playnext_desc: "### %{name} Selanjutnya Untuk Diputar ♪"
+playnext_notfound: "<:m_wrong:1193112008124530738> Lagu tidak ditemukan!"
+
+# Eksekusi saat tidak valid
+no_node: "<:m_warning:1193112123757305886> **Tidak ada server Lavalink yang ditemukan. Silakan coba lagi setelah 5 Menit**"
+
+### Perintah Join!
+join_msg: "Pemain telah berhasil dibuat dan bergabung dengan %{channel}"
+join_already: "<:m_warning:1193112008124530738> Saya sudah berada di %{channel}"
+join_no_in_voice: "<:m_wrong:1193112008124530738> Kamu tidak berada di saluran suara!"
+join_no_same_voice: "<:m_wrong:1193112008124530738> Kamu tidak berada di saluran suara yang sama dengan saya!"
+
+### Perintah Loop!
+loop_current: |
+  <:m_loop:1193113331767185499> **Sekarang Mengulang %{title}
+  <:m_blank:1215234569008189450><:m_sparkle:1204848989992648704> Nikmati, %{user}**
+
+loop_all: "<:m_loop:1193113331767185499> **Sedang mengulang MODE ANTREAN**"
+unloop_all: "<:m_wrong:1193112008124530738> **Mode pengulangan TELAH DINONAKTIFKAN**"
+loop_invalid: "<:m_warning:1193112123757305886> Mode Loop tidak valid. Harap gunakan **%{mode}**"
+loop_already: "<:m_warning:1193112123757305886> Mode Loop sudah **%{mode}**"
+
+### Perintah Lyrics!
+provide_lyrics: "<:m_warning:1193112123757305886> Harap berikan **Nama Lagu** yang valid"
+lyrics_title: "Lirik untuk **%{song}**"
+lyrics_notfound: "<:m_wrong:1193112008124530738> **Tidak dapat menemukan lirik untuk lagu ini!**"
+lyrics_toolong: "**Lirik terlalu panjang maksimal 4048 karakter yang diizinkan!**"
+
+### Perintah Nowplaying!
+nowplaying_title: "Sedang diputar..."
+nowplaying_desc: "**%{title}**"
+nowplaying_footer: "Antrean Tersisa: %{queue} • Mode Loop: %{loopmode} • Volume: %{volume}"
+
+nowplaying_author_title: "Pengarang"
+nowplaying_total_duration_title: "Durasi"
+nowplaying_request_title: "Diminta Oleh"
+
+### Perintah Pause!
+pause_msg: |
+  <:m_pause:1193115141156376647> **Lagu %{title} saat ini dijeda! 
+  <:m_blank:1215234569008189450><:m_sparkle:1204848989992648704> Ini dijeda oleh %{user}.**
+
+### Perintah Play!
+play_no_same_voice: "<:m_wrong:1193112008124530738> Kamu tidak berada di saluran suara yang sama dengan saya!"
+play_no_in_voice: "<:m_wrong:1193112008124530738> Kamu tidak berada di saluran suara!"
+play_arg: "<:m_warning:1193112123757305886> Harap berikan nama lagu atau URL yang valid!"
+play_emoji: "<:m_wrong:1193112008124530738> **Oops! Ini adalah emoji, kamu tidak dapat memutar lagu menggunakan emoji**"
+play_match: "<:m_wrong:1193112008124530738> **Oops! Maaf, Lagu tidak ditemukan! Silakan coba lagi**"
+
+play_track: "### %{title} nikmati ♥"
+
+play_playlist: |
+  ## Itu mudah!
+  ### [`playlist`](%{title}) kamu telah ditambahkan ke antrean
+
+play_result: "### %{title} nikmati ♥"
+
+play_queue_max: |
+  <:m_wrong:1193112008124530738> OMG!>,.,< Antrean terlalu panjang. Maks %{limitqueue} lagu.
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> Tingkatkan ke [**premium**](%{patreon}) untuk akses antrean tanpa batas!
+
+play_playlist_max: |
+  <:m_wrong:1193112008124530738> OMG!>,.,< Playlist terlalu panjang. Maks %{limitqueue} lagu.
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> Tingkatkan ke [**premium**](%{patreon}) untuk akses playlist tanpa batas!
+
+### Perintah Previous!
+previous_notfound: |
+  <:m_warning:1193112123757305886> **Lagu sebelumnya tidak ditemukan dalam antrean! 
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> Kenapa tidak </play:1219594140560396421> lebih banyak lagu dan teruskan musik?**
+previous_msg: |
+  <:m_replay:1215286916014931998>  **Kembali ke lagu sebelumnya! 
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> Sekarang memutar %{title}**
+
+### Perintah Queue!
+queue_number_invalid: "<:m_warning:1193112123757305886> Harap berikan nomor yang valid!"
+queue_title: "Antrean sedang diputar..."
+queue_description: "**%{title}**\n\n**Sisa Antrean %{rest}**"
+queue_footer: "Halaman • %{page}/%{pages} | Lagu • %{queue_lang} | Total Durasi • %{duration}"
+queue_notnumber: "<:m_warning:1193112123757305886> Harap berikan nomor halaman yang valid!"
+queue_page_notfound: "<:m_warning:1193112123757305886> Hanya ada **%{page} Halaman**"
+
+
+### Perintah RemoveTrack!
+removetrack_number_invalid: "<:m_warning:1193112123757305886> Mohon berikan nomor yang valid!"
+removetrack_already: "<:m_wrong:1193112008124530738> **Saya tidak bisa menghapus lagu yang sedang diputar**"
+removetrack_notfound: "<:m_warning:1193112123757305886> **Maaf %{user}, Lagu tidak ditemukan!**"
+removetrack_desc: "<:m_bin:1193112832930230272> **Lagu %{title} telah dihapus dari Antrian!**"
+
+### Perintah Replay!
+replay_msg: "<:m_replay:1215286916014931998> **%{user} Memutar ulang %{title}**"
+
+### Perintah Resume!
+resume_msg: |
+  <:m_play:1193113362293338112> **Pemutaran Dilanjutkan %{title},
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> Nikmati %{user}**
+
+### Perintah Rewind!
+rewind_msg: "<:m_rewind:1215286625160921138> **%{user} Mundurkan %{title} ke** `%{duration}`"
+rewind_beyond: "<:m_warning:1193112123757305886> Lagu baru dimulai. Anda tidak bisa mundur lebih jauh dari itu!"
+
+### Perintah Seek!
+seek_msg: "<:m_seek:1215287353912860682> **%{user} Mencari %{title} ke** `%{duration}`"
+seek_beyond: "<:m_warning:1193112123757305886> Maaf %{user}, Anda tidak bisa mencari lebih jauh dari durasi lagu!"
+seek_invalid: "<:m_warning:1193112123757305886> Durasi pencarian tidak valid. Mohon gunakan timestamp yang valid. Contoh: **1:30**"
+
+### Perintah Shuffle!
+shuffle_title: "Mengacak Antrian"
+
+### Perintah Skip!
+skip_notfound: |
+  <:m_warning:1193112123757305886> **Tidak ada lagu yang ditemukan untuk Dilewati! Sepertinya tidak ada yang bisa dilewati. 
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> Mari </play:1219594140560396421> teruskan musik dengan menambahkan lebih banyak lagu!**
+skip_msg: "<:m_forward:1215286423951900734> **%{title} Telah Dilewati**"
+skip_number_invalid: "<:m_warning:1193112123757305886> Mohon berikan nomor yang valid!"
+
+### Perintah Stop!
+stop_msg: "<:m_stop:1193113393561878548> **%{title} Telah Dihentikan**"
+
+### Perintah Volume!
+volume_number_invalid: "<:m_warning:1193112123757305886> Mohon berikan nomor yang valid!"
+volume_invalid: "<:m_warning:1193112123757305886> Volume tidak valid. Mohon gunakan angka antara **1** dan **100**"
+volume_msg: "<:m_vol:1215288075589132298> **Volume diatur ke %{volume}%, Nikmati %{user}**"
+volume_max: "<:m_warning:1193112123757305886> **Volume sudah pada batas maksimal 100%**"
+
+### Perintah Sumber Play
+url_no_allowed: "<:m_wrong:1193112008124530738> Mohon gunakan nama lagu/nama artis (url tidak diperbolehkan)"
+play_arg_source: "<:m_warning:1193112123757305886> Mohon berikan nama lagu/artis yang valid!"
+
+### Perintah Sumber YouTube Music ###
+play_result_youtube_music: "%{ytmEmoji} **%{title}** telah ditambahkan ke antrian"
+play_track_youtube_music: "%{ytmEmoji} **%{title}** telah ditambahkan ke antrian"
+play_playlist_youtube_music: "%{ytmEmoji} **[`playlist`](%{title})** Anda telah ditambahkan ke antrian"
+
+### Perintah Sumber Spotify ###
+play_result_spotify: "%{spotifyEmoji} **%{title}** telah ditambahkan ke antrian"
+play_track_spotify: "%{spotifyEmoji} **%{title}** telah ditambahkan ke antrian"
+play_playlist_spotify: "%{spotifyEmoji} **[`playlist`](%{title})** Anda telah ditambahkan ke antrian"
+
+### Perintah Sumber Apple Music ###
+play_result_apple: "%{appleEmoji} **%{title}** telah ditambahkan ke antrian"
+play_track_apple: "%{appleEmoji} **%{title}** telah ditambahkan ke antrian"
+play_playlist_apple: "%{appleEmoji} **[`playlist`](%{title})** Anda telah ditambahkan ke antrian"
+
+### Perintah Sumber Deezer Music ###
+play_result_deezer: "%{deezerEmoji} **%{title}** telah ditambahkan ke antrian"
+play_track_deezer: "%{deezerEmoji} **%{title}** telah ditambahkan ke antrian"
+play_playlist_deezer: "%{deezerEmoji} **[`playlist`](%{title})** Anda telah ditambahkan ke antrian"
+
+### Perintah Sumber SoundCloud Music ###
+play_result_soundcloud: "%{soundcloudEmoji} **%{title}** telah ditambahkan ke antrian"
+play_track_soundcloud: "%{soundcloudEmoji} **%{title}** telah ditambahkan ke antrian"
+play_playlist_soundcloud: "%{soundcloudEmoji} **[`playlist`](%{title})** Anda telah ditambahkan ke antrian"

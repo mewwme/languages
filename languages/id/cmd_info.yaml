@@ -1,0 +1,139 @@
+### Tentang perintah
+about_desc1: "** %{bot} Tempat di mana mereka yang ingin bernyanyi selalu menemukan lagu ♪\nBergabunglah dengan melodi di server Discord Anda hari ini!**"
+about_desc2: |
+  ・Prefix bot untuk server ini adalah `%{prefix}`
+  ・Ubah prefix dengan `%{prefix} prefix <prefix baru>`
+  ・Putar track dengan tautan atau istilah pencarian `%{prefix} play`
+  Kunjungi **[website kami](%{website})** atau gunakan perintah `%{prefix} help` untuk lebih banyak perintah.
+about_desc3: |
+  %{bot} memerlukan izin `administrator`,
+  Jika Anda ingin menonaktifkan izin Administrator dari %{bot}, bot ini tidak akan berfungsi dengan baik! Anda masih bisa mendengarkan fitur musik dasar tetapi beberapa hal tidak akan berfungsi.
+
+  <a:support:1183153677553381376>**Bantuan dan Dukungan**
+  Bergabunglah dengan **[server dukungan kami](%{serversupport})** jika Anda memerlukan bantuan, ingin mendapatkan informasi tentang pembaruan dan masalah, atau ingin terlibat dalam diskusi komunitas dengan pengembang!
+
+### Perintah Bantuan!
+finder_invalid: "Perintah Tidak Valid"
+finder_example: "<:m_warning:1193112123757305886> **Harap berikan Nama Perintah yang valid**"
+finder_name: "**Perintah:**"
+finder_des: "**Deskripsi:**"
+finder_usage: "**Penggunaan:**"
+finder_access: "**Akses oleh:**"
+finder_aliases: "**Alias:**"
+finder_slash: "**Slash:**"
+finder_des_no: "Tidak Ada Deskripsi"
+finder_usage_no: "Tidak Ada Penggunaan"
+finder_aliases_prefix: "[Hanya Prefix]"
+finder_aliases_no: "Tidak Ada Alias"
+finder_slash_enable: "Diaktifkan"
+finder_slash_disable: "Dinonaktifkan"
+
+### Menu Beranda / perintah bantuan dan Semua perintah
+command_not_found: "Perintah tidak dikenal"
+select_menu: "Nikmati musik bersamaku!"
+footer: "© 2024 Semua Hak Dilindungi"
+help_timeout: "Menu Bantuan telah berakhir, coba gunakan **`%{prefix}help`** atau **`/help`** lagi."
+homepage_title: "Tempat di mana mereka yang ingin bernyanyi selalu menemukan lagu ♪\nBergabunglah dengan melodi di server Discord Anda hari ini!"
+#homepage_title: "Bot musik Discord yang 100% gratis tanpa pembayaran atau suara yang diperlukan untuk mengakses semua fungsionalitas luar biasa."
+homepage_desc: |
+  <:m_blank:1215234569008189450><:m_disc:1196006944746524764> **Musik 24/7**
+  <:m_blank:1215234569008189450><:m_switch:1196007160279203841> **Filter Musik**
+  <:m_blank:1215234569008189450><:m_pl:1215230848136257548> **Daftar Putar Musik**
+  <:m_blank:1215234569008189450><:prem:1193109484688642118> **Unlock Fitur Premium**
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> **Spotify, Deezer, Soundcloud, Apple Music & Banyak Lagi...**
+
+  <:m_blank:1215234569008189450><a:support:1183153677553381376> **Ingin meningkatkan ke rencana premium? [Patreon](%{patreon})**
+
+### Perintah Disclaimer
+disclaimer_desc: "*Dengan menggunakan bot ini, Anda secara otomatis setuju bahwa pengembang bot ini tidak bertanggung jawab atas kerusakan yang terjadi pada saluran non-NSFW atau hak cipta.\nPengembang tidak berpengaruh pada musik yang diputar.*"
+
+### Perintah Undangan!
+inv_desc: "Anda dapat mengundang saya dengan mengklik tombol di bawah.\nAda bug atau gangguan? Bergabunglah dengan **[server dukungan](%{support})**"
+
+### Status perintah Lavalink tidak tersedia!
+lavalink_desc: |
+  **Informasi Node**```Node Lavalink tidak tersedia!```
+  **Informasi CPU**```Tidak tersedia!```
+  **Informasi Memori**```Tidak tersedia!```
+
+### Perintah Ping! ###
+ping_title: "Poooong!"
+ping_desc: "\n- Ping: %{ping}ms\n- Waktu Respon: %{response}ms\n- Uptime: %{uptime}"
+
+### Perintah Rating Bot! ###
+rating_desc: "Terima kasih %{user} telah memberikan bintang untuk bot musik Discord kami!"
+rating_error: "Gagal mengirim rating. Silakan coba lagi nanti."
+rating_succes: "Terima kasih atas rating Anda!\nRating Anda telah berhasil dikirim."
+
+### Perintah Laporan #####
+report_provide_desc: "Ups! Perintah tidak valid. Harap berikan deskripsi Anda"
+report_failure: "Gagal mengirim laporan. Silakan coba lagi nanti."
+report_success: "Terima kasih atas laporan Anda.\nLaporan telah berhasil dikirim untuk penyelesaian."
+
+### Perintah Saran #####
+suggestions_provide_desc: "Ups! Perintah tidak valid. Harap berikan deskripsi Anda"
+suggestions_failure: "Gagal mengirim saran. Silakan coba lagi nanti."
+suggestions_success: "Terima kasih atas saran Anda!\nSaran Anda telah berhasil dikirim."
+
+### Perintah Kick! ###
+kick_user_not_found: "Pengguna tersebut tidak ada di server ini"
+kick_user_ownerid: "Anda tidak dapat menendang pengguna tersebut karena mereka adalah pemilik server"
+kick_user_higher_role: "Anda tidak dapat menendang pengguna tersebut karena mereka memiliki peran yang lebih tinggi dari Anda"
+kick_bot_higher_role: "Anda tidak dapat menendang pengguna tersebut karena mereka memiliki peran yang lebih tinggi dari saya"
+kick_error: "Terjadi kesalahan saat mencoba menendang pengguna tersebut"
+kick_success: "**%{user} telah ditendang oleh %{moderator}**"
+kick_success_dm: |
+  Anda telah ditendang oleh %{moderator} dari server %{guild}. ```Alasan: %{reason}```
+  Hubungi administrator server jika Anda memiliki pertanyaan atau ingin mengajukan banding.
+
+### Perintah Ban! ###
+ban_user_not_found: "Pengguna tersebut tidak ada di server ini"
+ban_user_ownerid: "Anda tidak dapat memban pengguna tersebut karena mereka adalah pemilik server"
+ban_user_higher_role: "Anda tidak dapat memban pengguna tersebut karena mereka memiliki peran yang lebih tinggi dari Anda"
+ban_bot_higher_role: "Anda tidak dapat memban pengguna tersebut karena mereka memiliki peran yang lebih tinggi dari saya"
+ban_error: "Terjadi kesalahan saat mencoba memban pengguna tersebut"
+banned_success: "**%{user} telah diban oleh %{moderator}**"
+ban_success_dm: |
+  Anda telah diban oleh %{moderator} dari server %{guild}. ```Alasan: %{reason}```
+  Hubungi administrator server jika Anda memiliki pertanyaan atau ingin mengajukan banding.
+
+### Perintah Purge! ###
+purge_invalid_amount: "Harap berikan angka yang valid"
+purge_error: "Gagal menghapus pesan"
+purge_success: "Berhasil menghapus %{amount} pesan"
+purge_older_than_14_days: "Anda tidak dapat menghapus pesan yang lebih dari 14 hari"
+
+### Perintah GitHub #####
+github_nouser: "Tidak dapat menemukan pengguna dengan nama **%{username}** di GitHub."
+provide_username: "Ups! Perintah tidak valid. Harap berikan `username`"
+github_error: "Terjadi kesalahan saat memproses GitHub. Silakan coba lagi nanti."
+
+### Perintah Cat #####
+provide_categories_cat: "Ups! Perintah tidak valid. Harap berikan kategori\nKategori yang tersedia: %{categories}"
+invalid_categories_cat: "Kategori tidak valid\nKategori yang tersedia: %{categories}"
+cat_error: "Terjadi kesalahan saat mengirim gambar! Silakan coba lagi."
+
+### Perintah Quote #####
+provide_categories_quote: "Ups! Perintah tidak valid. Harap berikan kategori\nKategori yang tersedia: %{categories}"
+invalid_categories_quote: "Kategori tidak valid\nKategori yang tersedia: %{categories}"
+quote_error: "Terjadi kesalahan saat mengirim kutipan! Silakan coba lagi."
+
+### Perintah Cek Premium Pengguna!
+premium_check_premium_button: "Tingkatkan ke premium"
+premium_check_guild_profile_error_desc: "Tampaknya guild ini belum memiliki rencana premium."
+premium_check_user_profile_error_desc: "Tampaknya Anda belum memiliki rencana premium."
+premium_check_invalid: "Tipe profil tidak valid. Harap pilih 'user' atau 'guild'"
+premium_check_owner_profile_author: "Profil Premium Pemilik"
+premium_check_admin_profile_author: "Profil Premium Admin"
+premium_check_user_profile_author: "Profil Premium Pengguna"
+premium_check_user_profile_desc: |
+  <:m_ava:1204848463083474954>  **Pengguna:** %{user}
+  <:m_pencil:1204848507220004944>  **Rencana:** %{plan}
+  <:m_created:1215293513088892979>  **Kedaluwarsa:** %{expires}
+
+### Perintah Cek Premium Guild!
+premium_check_guild_profile_author: "Profil Premium Guild"
+premium_check_guild_profile_desc: |
+  <:m_ava:1204848463083474954>  **Guild:** %{guild}
+  <:m_pencil:1204848507220004944>  **Rencana:** %{plan}
+  <:m_created:1215293513088892979>  **Kedaluwarsa:** %{expires}

@@ -1,0 +1,90 @@
+### avatar animasi
+new_avatar_not_gif: "Harap berikan gambar gif/png yang valid."
+new_avatar_success: "Avatar baru telah berhasil diatur!"
+new_avatar_error: "Gagal mengatur avatar baru."
+
+### banner animasi
+new_banner_not_gif: "Harap berikan gambar gif/png yang valid."
+new_banner_success: "Banner baru telah berhasil diatur!"
+new_banner_error: "Gagal mengatur banner baru."
+
+### Perintah Shutdown!
+restart_msg: "<:m_oke:1193111935462420531> **Berhasil mematikan sistem...**"
+
+### Pengumuman ke semua server bot
+announcement_desc: "*Masukkan deskripsi untuk pengumuman ini*"
+announcement_invalidURL: "*URL gambar tidak valid atau tidak ada URL yang diberikan. Harap berikan URL gambar yang valid.*"
+announcement_timeout: "*Tidak ada input yang diterima dalam waktu yang ditentukan. Perintah dibatalkan.*"
+announcement_failure: "*Gagal mengirim pengumuman ke guild mana pun.*`Tidak ada guild ditemukan.`"
+announcement_success: "*Pengumuman telah berhasil dikirim di %{successfulGuilds} guild%{plural}!*"
+
+### Blacklist Guild
+blacklist_guild_not_found: "Guild tidak ditemukan"
+blacklist_guild_already: "Server %{guild} sudah ada dalam daftar blacklist"
+blacklist_guild_add: "Guild %{guild} telah ditambahkan ke blacklist."
+blacklist_guild_not_exist: "Server %{guild} tidak ada dalam database"
+blacklist_guild_delete: "Guild %{guild} telah dihapus dari blacklist."
+
+### Blacklist User
+blacklist_user_bot_owner: "Pengguna tidak dapat diblacklist karena merupakan pemilik bot"
+blacklist_user_not_found: "Pengguna tidak ditemukan"
+blacklist_user_already: "Pengguna %{user} sudah ada dalam blacklist"
+blacklist_user_add: "Pengguna %{user} telah ditambahkan ke blacklist"
+blacklist_user_not_exist: "Pengguna %{user} tidak ada dalam database"
+blacklist_user_delete: "Pengguna %{user} telah dihapus dari blacklist"
+
+### Premium / Generate command!
+premium_code_arg_error: "<:m_wrong:1193112008124530738> Argumen tidak valid. Harap gunakan %{text}"
+premium_code_desc: |
+  **Dihasilkan %{codes_length} kode**
+  ```%{codes}```
+premium_dm_succes: "<:m_oke:1193111935462420531> **Saya telah mengirimkan kode premium kepada Anda melalui DM!**"
+premium_dm_failed: "<:m_wrong:1193112008124530738> **Gagal mengirimkan kode premium kepada Anda melalui DM!**"
+
+### Premium Code Logs ###
+premium_code_plan: Rencana
+premium_code_expired: Kadaluarsa
+premium_code_generateby: Dihasilkan Oleh
+
+### Remove command!
+premium_remove_desc: "<:m_oke:1193111935462420531> **Berhasil menghapus %{user} dari pengguna Premium**"
+premium_remove_already: "<:m_warning:1193112123757305886> %{user} sudah dihapus"
+premium_remove_invalid_params: "<:m_warning:1193112123757305886> Tidak valid, Contoh %{example}"
+premium_remove_404: "<:m_wrong:1193112008124530738> **Tidak ditemukan %{id} dalam tipe %{type}**"
+premium_remove_invalid_type: "<:m_warning:1193112123757305886> Tidak valid, Tipe %{type}"
+premium_remove_footer: "Berhasil dihapus %{user}"
+premium_remove_id: "Id"
+premium_remove_by: "Dihapus oleh"
+display_name: "Nama Tampilan"
+
+### Update command!
+update_provide_desc: "*Masukkan deskripsi untuk pembaruan ini*"
+update_cancelled: "*Tidak ada deskripsi yang diberikan. Perintah dibatalkan.*"
+update_length_exceeded: "*Deskripsi terlalu panjang. Maks 2000 karakter diperbolehkan.*"
+update_success: "*Pembaruan telah berhasil dikirim*"
+update_failure: "*Gagal mengirim pembaruan.*"
+update_timeout_failure: "*Waktu habis. Silakan coba lagi.*"
+
+### Status command! (status bot)
+status_arg_error: "<:m_wrong:1193112008124530738> Argumen tidak valid. Harap gunakan %{text}"
+status_enable: "<:m_warning:1193112123757305886> **Oops! Channel Status sudah ada.**"
+status_create: "<:m_created:1215293513088892979> **Channel Status Bot telah dibuat!**"
+status_null: "<:m_wrong:1193112008124530738> **Channel Status Bot tidak ditemukan!**"
+status_delete: "<:m_bin:1193112832930230272> **Channel Status Bot telah dihapus!**"
+
+### Maintenance Commands! ###
+maintenance_arg_error: "<:m_wrong:1193112008124530738> Argumen tidak valid. Harap gunakan %{text}"
+maintenance_true: "<:m_oke:1193111935462420531> Mode Pemeliharaan telah diatur ke **True**"
+maintenance_false: "<:m_oke:1193111935462420531> Mode Pemeliharaan telah **False**"
+
+### Commands Guild List
+guild_list_number_invalid: "<:m_wrong:1193112008124530738> Harap berikan angka yang valid!"
+guild_list_title: "Daftar Server Premium!"
+guild_list_notnumber: "<:m_wrong:1193112008124530738> Hanya angka yang diizinkan untuk halaman!"
+guild_list_page_notfound: "<:m_wrong:1193112008124530738> Hanya **%{page} halaman** yang tersedia!"
+
+### Commands User List
+user_list_number_invalid: "<:m_wrong:1193112008124530738> Harap berikan angka yang valid!"
+user_list_title: "Daftar Pengguna Premium"
+user_list_notnumber: "<:m_wrong:1193112008124530738> Hanya angka yang diizinkan untuk halaman!"
+user_list_page_notfound: "<:m_wrong:1193112008124530738> Hanya **%{page} halaman** yang tersedia!"

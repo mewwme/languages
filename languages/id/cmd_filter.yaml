@@ -1,0 +1,45 @@
+### Semua menu filter untuk pemutaran musik!
+filter_menu_on: "<:m_singing:1196006929932234782> **Filter %{name} diaktifkan!, Musik Anda akan terdengar lebih keren sekarang!**"
+no_player_filter: "<:m_wrong:1193112008124530738> Tidak ada pemutar yang sedang bermain!"
+
+### Semua perintah filter!
+filter_on: |
+  <:m_singing:1196006929932234782> **Filter %{name} diaktifkan!** 
+  <:m_blank:1215234569008189450><:m_sparkle:1204848989992648704> **Musik Anda akan terdengar lebih keren sekarang!**
+
+filter_already: "<:m_warning:1193112123757305886> **Filter %{name} sudah diaktifkan**"
+filter_number: "<:m_warning:1193112123757305886> Harap berikan angka yang valid!"
+filter_greater: "<:m_warning:1193112123757305886> Angka harus lebih besar dari **0**"
+filter_less: "<:m_warning:1193112123757305886> Angka harus kurang dari **10**"
+
+### Perintah Bassboost!
+bassboost_set: "<:m_singing:1196006929932234782> **Bassboost telah diatur ke %{amount}dB**"
+bassboost_limit: "<:m_warning:1193112123757305886> Harap gunakan angka antara **-10** dan **10**"
+
+### Perintah Equalizer!
+eq_author: "Equalizer"
+eq_icon: "https://i.pinimg.com/originals/cb/17/b8/cb17b80a942d7c317a35ff1324fae12f.gif"
+eq_desc: "Terdapat **14 Band** yang dapat diatur dari **-10** hingga **10**. Tidak wajib untuk mengatur semuanya!"
+eq_field_title: "Contoh:"
+eq_field_value: "%{prefix}eq 2 3 0 8 0 5 0 -5 0 0"
+eq_footer: "Reset Equalizer • %{prefix}eq reset"
+eq_on: "<:m_music:1193101413362966559> Equalizer telah diatur ke **%{bands}**"
+eq_number: "<:m_warning:1193112123757305886> Harap berikan angka yang valid!"
+eq_greater: "<:m_warning:1193112123757305886> Angka harus lebih besar dari **-10**"
+eq_than: "<:m_warning:1193112123757305886> Angka harus kurang dari **10**"
+
+### Perintah Pitch!
+pitch_on: "<:m_singing:1196006929932234782> **Pitch telah diatur ke %{amount}**"
+
+### Perintah Rate!
+rate_on: "<:m_singing:1196006929932234782> **Rate telah diatur ke %{amount}x**"
+
+### Perintah Speed!
+speed_on: "<:m_singing:1196006929932234782> **Speed telah diatur ke %{amount}x**"
+
+### Perintah Reset!
+reset_on: "<:m_oke:1193111935462420531> **Filter telah direset**"
+reset_already: "<:m_warning:1193112123757305886> **Filter sudah direset**"
+
+# Nomor Tidak Valid
+number_invalid: "<:m_warning:1193112123757305886> Harap berikan angka yang valid!"

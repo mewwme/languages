@@ -1,0 +1,111 @@
+### pl-add commands ###
+pl_add_invalid: "<:m_wrong:1193112008124530738> Harap berikan ID Playlist yang valid!"
+pl_add_match: "<:m_warning:1193112123757305886> Harap berikan nama lagu atau URL yang valid!"
+pl_add_playlist: "Ditemukan **%{title}** `%{duration}` • (**%{track} Lagu**) • %{user}"
+pl_add_track: "Ditemukan **%{title}** • `%{duration}` • %{user}"
+pl_add_search: "Ditemukan **%{title}** • `%{duration}` • %{user}"
+pl_add_owner: "<:m_wrong:1193112008124530738> Anda bukan **Pemilik Playlist**!"
+pl_add_limit_track: "<:m_wrong:1193112008124530738> Anda tidak dapat menambahkan lebih dari **%{limit} Lagu**"
+pl_add_added: "<:m_add:1215292119384723517> Ditambahkan **%{count} Lagu** ke `%{playlist}`"
+
+### pl-all commands ###
+pl_all_view_embed_playlist: "%{num}. `%{name}` • (**%{tracks} Lagu**) • Dibuat: `[%{create} lalu]`"
+pl_all_view_embed_title: "%{user}"
+pl_all_view_embed_footer: "Halaman • %{page}/%{pages} | Playlist • %{songs}"
+pl_all_view_notnumber: "<:m_wrong:1193112008124530738> Harap berikan nomor halaman yang valid!"
+pl_all_view_page_notfound: "<:m_wrong:1193112008124530738> Hanya ada **%{page} Halaman**!"
+
+### pl-create commands ###
+pl_create_invalid: "<:m_wrong:1193112008124530738> Harap berikan ID Playlist yang valid!"
+pl_create_toolong: "<:m_wrong:1193112008124530738> Nama Playlist tidak boleh lebih dari **16 Karakter**"
+pl_create_des_toolong: "<:m_wrong:1193112008124530738> Deskripsi Playlist tidak boleh lebih dari **1000 Karakter**"
+pl_create_limit_playlist: "<:m_wrong:1193112008124530738> Anda tidak dapat membuat lebih dari **%{limit} Playlist**"
+create_created_title: "Berhasil Membuat Playlist Baru!"
+pl_create_created: |
+  <:m_queue:1193113465632587789> **Nama Playlist** ```%{playlist}```
+  <:m_id:1215293508634542106> **ID Playlist** ```%{id}```
+  <:m_created:1215293513088892979> **Deskripsi** ```%{desc}```
+pl_create_created_footer: "Ketik /pl-editor untuk mengedit playlist Anda!"
+
+### pl-delete commands ###
+pl_delete_invalid: "<:m_wrong:1193112008124530738> Harap berikan ID Playlist yang valid!"
+delete_notfound: "<:m_warning:1193112123757305886> Harap berikan ID Playlist yang valid!"
+pl_delete_owner: "<:m_wrong:1193112008124530738> Anda bukan **Pemilik Playlist**"
+pl_delete_confirm: "<:m_support:1206557461868183552> Apakah Anda ingin menghapus `%{playlist_id}`"
+pl_delete_deleted: "<:m_oke:1193111935462420531> Playlist `%{name}` telah berhasil **Dihapus**"
+pl_delete_no: "<:m_warning:1193112123757305886> Penghapusan Playlist **Dibatalkan**!"
+
+### pl-detail commands ###
+pl_detail_number_invalid: "<:m_warning:1193112123757305886> Harap berikan nomor yang valid!"
+pl_detail_notfound: "<:m_warning:1193112123757305886> Harap berikan ID Playlist yang valid!"
+pl_detail_private: "<:m_lock:1204850955363811420> Playlist adalah **Pribadi**"
+pl_detail_track: "%{num}. **%{title}** • **%{author}** `[%{duration}]`"
+pl_detail_embed_title: "Playlist: %{name}"
+pl_detail_embed_footer: "Halaman • %{page}/%{pages} | Lagu • %{songs} | Durasi Total • %{duration}"
+pl_detail_notnumber: "<:m_warning:1193112123757305886> Harap berikan nomor halaman yang valid!"
+pl_detail_page_notfound: "<:m_warning:1193112123757305886> Hanya ada **%{page} Halaman**"
+
+### pl-editor commands! ###
+pl_edit_playlist_id_label: "Masukkan **ID Playlist Baru** `[a-z, A-Z, 0-9]`"
+pl_edit_playlist_name_label: "Masukkan **Nama Playlist Baru**"
+pl_edit_playlist_des_label: "Masukkan **Deskripsi Playlist Baru**"
+pl_edit_playlist_private_label: "Masukkan **Visibilitas Playlist Baru** `[publik/pribadi]`"
+pl_edit_success: "<:m_oke:1193111935462420531> Playlist berhasil diedit\n<:m_blank:1215234569008189450><:m_id:1215293508634542106> ID Playlist Baru: `%{playlistId}`"
+pl_edit_arg: "<:m_wrong:1193112008124530738> Harap berikan ID Playlist yang valid!"
+pl_edit_notfound: "<:m_wrong:1193112008124530738> Harap berikan ID Playlist yang valid!"
+pl_edit_playlist_owner: "<:m_wrong:1193112008124530738> Anda bukan **Pemilik Playlist**!"
+pl_edit_invalid_id: "<:m_wrong:1193112008124530738> Harap masukkan ID Playlist yang valid dan belum ada!"
+pl_edit_invalid_mode: "<:m_wrong:1193112008124530738> Mode Visibilitas tidak valid. Harap gunakan **publik** atau **pribadi**"
+
+### Editor interaction!
+ineraction_edit_playlist_id_label: "ID Playlist Baru"
+ineraction_edit_playlist_name_label: "Nama Playlist Baru"
+ineraction_edit_playlist_des_label: "Deskripsi Playlist Baru"
+ineraction_edit_playlist_private_label: "Visibilitas Playlist Baru"
+ineraction_edit_playlist_id_placeholder: "Masukkan ID Playlist Baru Anda! [a-z, A-Z, 0-9]"
+ineraction_edit_playlist_name_placeholder: "Masukkan Nama Playlist Baru Anda!"
+ineraction_edit_playlist_des_placeholder: "Masukkan Deskripsi Playlist Baru Anda!"
+ineraction_edit_playlist_private_placeholder: "Masukkan Visibilitas Playlist Baru Anda! [publik/pribadi]"
+ineraction_edit_success: "<:m_oke:1193111935462420531> Playlist berhasil diedit\n<:m_blank:1215234569008189450><:m_id:1215293508634542106> ID Playlist Baru: `%{playlistId}`"
+ineraction_edit_playlist_error: "<:m_wrong:1193112008124530738> Terjadi kesalahan. Silakan coba lagi!"
+ineraction_edit_notfound: "<:m_wrong:1193112008124530738> Harap berikan ID Playlist yang valid!"
+ineraction_edit_playlist_owner: "<:m_wrong:1193112008124530738> Anda bukan **Pemilik Playlist**"
+ineraction_edit_invalid_id: "<:m_wrong:1193112008124530738> Harap masukkan ID Playlist yang valid dan belum ada!"
+
+### pl-import commands! ###
+pl_import_imported_desc: "### Playlist **%{name}** ditambahkan ke antrean ♪"
+pl_import_imported_footer: "Nikmati %{tracks} lagu • %{duration} • dari kebahagiaan musik!"
+pl_import_invalid: "<:m_wrong:1193112008124530738> Harap berikan ID Playlist yang valid!"
+pl_import_private: "<:m_lock:1204850955363811420> Playlist adalah **Pribadi**"
+pl_import_voice: "<:m_wrong:1193112008124530738> Anda harus berada di saluran suara untuk menggunakan perintah ini!"
+pl_import_empty: "<:m_wrong:1193112008124530738> Playlist adalah **Kosong**"
+
+### pl-info commands! ###
+pl_info_owner: "<:m_owner:1215294053818830940> Pemilik"
+pl_info_id: "<:m_id:1215293508634542106> ID"
+pl_info_des: "<:m_legal:1193105018887344169> Deskripsi"
+pl_info_no_des: "Tidak ada deskripsi yang disediakan!"
+pl_info_private: "<:m_visible:1215293510891085834> Visibilitas"
+pl_public: "Publik"
+pl_private: "Pribadi"
+pl_info_total: "<:m_music:1193101413362966559> Total Lagu"
+pl_info_created: "<:m_created:1215293513088892979> Dibuat"
+pl_info_invalid: "<:m_wrong:1193112008124530738> Harap berikan ID Playlist yang valid!"
+
+### pl-remove commands! ###
+pl_remove_invalid: "<:m_wrong:1193112008124530738> Harap berikan ID Playlist yang valid!"
+pl_remove_number_invalid: "<:m_wrong:1193112008124530738> Harap berikan nomor yang valid!"
+pl_remove_notfound: "<:m_wrong:1193112008124530738> Harap berikan ID Playlist yang valid!"
+pl_remove_owner: "<:m_wrong:1193112008124530738> Anda bukan **Pemilik Playlist**"
+pl_remove_song_notfound: "<:m_wrong:1193112008124530738> Lagu tidak ditemukan!"
+pl_remove_removed: "<:m_bin:1193112832930230272> Dihapus **%{position} Nomor** lagu dari `%{name}`"
+
+### pl-SaveQueue command! ###
+pl_savequeue_invalid: "<:m_wrong:1193112008124530738> Harap berikan ID Playlist yang valid!"
+pl_savequeue_notfound: "<:m_wrong:1193112008124530738> Harap berikan ID Playlist yang valid!"
+pl_savequeue_owner: "<:m_wrong:1193112008124530738> Anda bukan **Pemilik Playlist**!"
+pl_savequeue_no_tracks: "<:m_wrong:1193112008124530738> Tidak ada lagu yang sedang diputar!"
+pl_savequeue_no_new_saved: "<:m_wrong:1193112008124530738> Lagu sudah ada di `%{name}`"
+pl_savequeue_saved: "<:m_oke:1193111935462420531> Disimpan **%{tracks} Lagu** ke `%{name}`"
+
+pl_error_no_node: "Tidak ada server Lavalink yang ditemukan. Silakan coba lagi setelah **5 Menit**"

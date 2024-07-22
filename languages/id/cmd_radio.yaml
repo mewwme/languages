@@ -1,0 +1,17 @@
+### Perintah Radio
+radio_number_invalid: "<:m_wrong:1193112008124530738> Mohon berikan nomor yang valid!"
+radio_no_voice: "<:m_wrong:1193112008124530738> **Anda harus berada di saluran suara yang sama dengan saya!**"
+available_radio: "**Stasiun Radio Tersedia Dari Indonesia**"
+prefix: "Untuk memutar radio, gunakan perintah: %{prefix}radio (nomor_urutan)"
+radio_match: "<:m_wrong:1193112008124530738> Stasiun radio ini tidak aktif, kesalahan tautan atau rusak. Mohon **/report** untuk melaporkannya."
+radio_play_track: "**<:m_singing:1196006929932234782> Memulai Pemutaran [%{title}](%{serversupport}) Nikmati!**"
+
+### Perintah Lofi ###
+lofi_no_voice: "<:m_wrong:1193112008124530738> **Anda harus berada di saluran suara yang sama dengan saya!**"
+lofi_match: "<:m_wrong:1193112008124530738> Stasiun lofi ini tidak aktif, kesalahan tautan atau rusak. Mohon **/report** untuk melaporkannya."
+
+lofi_playlist: "**<:m_singing:1196006929932234782> Memulai Pemutaran [%{stations}](%{serversupport}) Nikmati!**"
+
+lofi_track: "**<:m_singing:1196006929932234782> Memulai Pemutaran [%{stations}](%{serversupport}) Nikmati!**"
+
+lofi_track_result: "**<:m_singing:1196006929932234782> Memulai Pemutaran [%{stations}](%{serversupport}) Nikmati!**"

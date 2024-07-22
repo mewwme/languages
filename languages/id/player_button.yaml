@@ -1,0 +1,55 @@
+### Autoplay command!
+autoplay_on: "<:m_oke:1193111935462420531> Autoplay sekarang **Diaktifkan**"
+autoplay_off: "<:m_wrong:1193112008124530738> Autoplay sekarang **Dinonaktifkan**"
+autoplay_no_song: "Tidak ada lagu yang diputar!"
+
+### Loop command!
+loop_current: |
+  <:m_loop:1193113331767185499> **Sekarang Memutar Ulang %{title}
+  <:m_blank:1215234569008189450><:m_sparkle:1204848989992648704> Nikmati, %{user}**
+
+loop_all: "<:m_loop:1193113331767185499> **%{user} telah memutar ulang MODE ANTRIAN**"
+unloop_all: "<:m_wrong:1193112008124530738> **Mode putar ulang telah DINONAKTIFKAN oleh %{user}**"
+loop_invalid: "<:m_warning:1193112123757305886> Mode Putar Ulang Tidak Valid. Silakan gunakan **%{mode}**"
+loop_already: "<:m_warning:1193112123757305886> Mode Putar Ulang sudah **%{mode}**"
+
+### Pause command!
+pause_msg: |
+  <:m_pause:1193115141156376647> **Lagu %{title} saat ini dijeda! 
+  <:m_blank:1215234569008189450><:m_sparkle:1204848989992648704> Dijeda oleh %{user}**
+
+### Resume command!
+resume_msg: |
+  <:m_play:1193113362293338112> **Pemutaran Dilanjutkan %{title},
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> Nikmati %{user}**
+
+previous_notfound: |
+  <:m_warning:1193112123757305886> **Lagu sebelumnya tidak ditemukan dalam antrian! 
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> Kenapa tidak </play:1219594140560396421> lebih banyak lagu dan teruskan musiknya?**
+previous_msg: |
+  <:m_replay:1215286916014931998>  **Kembali ke lagu sebelumnya oleh %{user} 
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> Sekarang memutar %{title}**
+
+### Queue command!
+queue_title: "Antrian sedang diputar..."
+queue_description: "**%{title}**\n\n**Sisa Antrian %{list_song}**"
+queue_footer: "Halaman • %{page}/%{pages} | Lagu • %{queue_lang} | Durasi Total • %{total_duration}"
+
+### Shuffle command!
+shuffle_msg: "<:m_shuffle:1193113431423848450> **%{user} Mengacak Antrian**"
+
+### Skip command!
+skip_msg: "<:m_forward:1215286423951900734> **%{user} Melewatkan %{title}**"
+skip_notfound: |
+  <:m_warning:1193112123757305886> **Tidak ada lagu yang ditemukan untuk Dilewati! Tampaknya tidak ada yang bisa dilewati. 
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> Mari </play:1219594140560396421> teruskan musiknya dengan menambahkan lebih banyak lagu!**
+
+### Stop command!
+stop_msg: "<:m_stop:1193113393561878548> **%{user} menghentikan %{title}**"
+
+### Volume command!
+voldown_msg: "<:m_voldown:1196105475050192976> **Volume diubah menjadi %{volume}%**"
+volume_invalid: "<:m_warning:1193112123757305886> Volume Tidak Valid. Rentang yang tersedia adalah **1** hingga **100**"
+volup_msg: "<:m_volup:1196105452547739788> **Volume diubah menjadi %{volume}%**"
+volume_max: "<:m_warning:1193112123757305886> **Volume sudah pada maksimum 100%**"
+volume_min: "<:m_warning:1193112123757305886> **Pemutar sudah pada volume minimum!**"

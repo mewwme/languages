@@ -1,0 +1,34 @@
+### Button Music Request ! ###
+stop_msg: "Lagu telah **dihentikan**"
+skip_notfound: "Saat ini, tidak ada lagu untuk dilewati"
+skip_msg: "Lagu telah **dilewati**"
+previous_msg: "Kembali ke lagu **sebelumnya**"
+previous_notfound: "Tidak ada lagu sebelumnya yang ditemukan dalam antrian!"
+resume_msg: "Pemutaran telah **dilanjutkan**"
+pause_msg: "Lagu telah **dijeda**"
+loop_current: "Memutar ulang **Lagu** saat ini"
+loop_all: "Memutar ulang **Antrian**"
+unloop_all: "Putar ulang sekarang **Dinonaktifkan**"
+
+# Perlu bergabung dengan voice & berada di voice yang sama untuk menggunakan perintah!
+no_player: "<:m_warning:1193112123757305886> Tidak ada lagu yang diputar saat ini!"
+no_same_voice: "<:m_wrong:1193112008124530738> Kamu tidak berada di saluran suara yang sama denganku!"
+no_in_voice: "<:m_wrong:1193112008124530738> Kamu tidak berada di saluran suara!"
+
+### HANDLER MUSIC REQUEST ! ###
+### load update ###
+setup_content_queue: "%{index}. **%{title}** Diminta oleh %{request}"
+setup_author: "Sedang diputar..."
+setup_author_icon: "https://cdn.discordapp.com/emojis/1212022783371116604.gif"
+setup_footer: "Lagu Tersisa • %{totalsong} | Volume • %{volume}% | Durasi Total • %{duration}"
+setup_queuemsg: "**Bergabunglah dengan saluran suara dan putar lagu menggunakan nama atau URL di sini!**"
+setup_playembed_author: "Tidak ada lagu yang sedang diputar"
+
+### load content ###
+player_setup_title: "**%{title}**"
+play_track: "Ditambahkan **%{title}** • %{request}"
+play_playlist: "Ditambahkan **%{title}** • (**%{songs} Lagu**) • %{request}"
+play_result: "Ditambahkan **%{title}** • %{request}"
+play_emoji: "Kamu tidak dapat memutar lagu menggunakan emoji!"
+setup_content_empty: "**Bergabunglah dengan saluran suara dan putar lagu menggunakan nama atau URL di sini!**"
+setup_content: "**__Antrian:__**"
