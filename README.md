@@ -1,10 +1,9 @@
 # 🌍 Multilanguage Support for Mewwme's
 
-
 ## 📋 Format
-+---------+------------------------+-------------------------+
+
 | Locale  | Language Name          | Native Name             |
-+---------+------------------------+-------------------------+
+|---------|------------------------|-------------------------|
 | id      | Indonesian              | Bahasa Indonesia        |
 | da      | Danish                 | Dansk                   |
 | de      | German                 | Deutsch                 |
@@ -37,4 +36,3 @@
 | ja      | Japanese               | 日本語                   |
 | zh-TW   | Chinese, Taiwan        | 繁體中文                 |
 | ko      | Korean                 | 한국어                  |
-+---------+------------------------+-------------------------+
