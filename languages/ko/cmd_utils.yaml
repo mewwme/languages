@@ -1,0 +1,88 @@
+### Avatar command! ###
+avatar_arg_error: "<:m_wrong:1193112008124530738> 유효하지 않은 인수입니다. %{text}를 사용해 주세요"
+
+### Kick command! ###
+kick_user_not_found: "해당 사용자가 이 서버에 존재하지 않습니다"
+kick_user_ownerid: "서버 소유자이므로 해당 사용자를 강퇴할 수 없습니다"
+kick_user_higher_role: "해당 사용자가 당신보다 높은 역할을 가지고 있으므로 강퇴할 수 없습니다"
+kick_bot_higher_role: "해당 사용자가 나보다 높은 역할을 가지고 있으므로 강퇴할 수 없습니다"
+kick_error: "사용자를 강퇴하는 동안 오류가 발생했습니다"
+kick_success: "**%{user}님이 %{moderator}님에 의해 강퇴되었습니다**"
+kick_success_dm: |
+  %{moderator}님에 의해 서버 %{guild}에서 강퇴되었습니다. ```사유: %{reason}```
+  문의 사항이 있거나 이의 제기를 하려면 서버 관리자에게 연락해 주세요.
+
+### Ban command! ###
+ban_user_not_found: "해당 사용자가 이 서버에 존재하지 않습니다"
+ban_user_ownerid: "서버 소유자이므로 해당 사용자를 밴할 수 없습니다"
+ban_user_higher_role: "해당 사용자가 당신보다 높은 역할을 가지고 있으므로 밴할 수 없습니다"
+ban_bot_higher_role: "해당 사용자가 나보다 높은 역할을 가지고 있으므로 밴할 수 없습니다"
+ban_error: "사용자를 밴하는 동안 오류가 발생했습니다"
+banned_success: "**%{user}님이 %{moderator}님에 의해 밴되었습니다**"
+ban_success_dm: |
+  %{moderator}님에 의해 서버 %{guild}에서 밴되었습니다. ```사유: %{reason}```
+  문의 사항이 있거나 이의 제기를 하려면 서버 관리자에게 연락해 주세요.
+
+### Purge command! ###
+purge_invalid_amount: "유효한 숫자를 제공해 주세요"
+purge_success: "%{amount}개의 메시지를 성공적으로 삭제했습니다"
+purge_older_than_14_days: "14일 이상 된 메시지는 삭제할 수 없습니다"
+purge_error: "메시지 삭제에 실패했습니다"
+
+### Cat command #####
+cat_error: "고양이 이미지를 전송하는 동안 오류가 발생했습니다! 다시 시도해 주세요."
+
+### GitHub command ####
+provide_username: "오류! 유효하지 않은 명령입니다. `username`을 제공해 주세요"
+github_nouser: "GitHub에서 **%{username}**이라는 사용자를 찾을 수 없습니다."
+github_error: "GitHub 처리 중 오류가 발생했습니다. 나중에 다시 시도해 주세요."
+
+### Member Info command ####
+memberinfo_arg_error: "<:m_wrong:1193112008124530738> 유효하지 않은 인수입니다. %{text}를 사용해 주세요"
+guild_not_available: "길드 정보가 제공되지 않습니다."
+
+### Quotes command ####
+provide_categories_quote: "오류! 유효하지 않은 명령입니다. 카테고리를 제공해 주세요\n사용 가능한 카테고리: %{categories}"
+invalid_categories_quote: "유효하지 않은 카테고리\n사용 가능한 카테고리: %{categories}"
+quote_error: "명언을 전송하는 동안 오류가 발생했습니다! 다시 시도해 주세요."
+
+### User Stats command ####
+user_stats_footer: "♪ 노래하고 싶은 사람들은 항상 노래를 찾습니다."
+command_used: "사용된 명령어"
+votes_count: "투표 수"
+tracks_played: "재생된 트랙 수"
+top_artist: "최고 아티스트"
+top_track: "최고 트랙"
+
+### user command ###
+user_arg_error: "<:m_wrong:1193112008124530738> 유효하지 않은 인수입니다. %{text}를 사용해 주세요"
+
+### Ticket Events ###
+setup_ticket_succes: "티켓이 %{channel}으로 성공적으로 설정되었습니다."
+channel_viewable: "제공된 채널이 나에게 보이지 않습니다"
+category_viewable: "제공된 카테고리가 나에게 보이지 않습니다"
+invalid_category: "제공된 카테고리가 유효하지 않습니다"
+missing_permission: "티켓 채널을 만들기 위해서 채널 관리 권한이 필요합니다"
+invalid_channel_category: "제공된 채널 또는 카테고리가 유효하지 않습니다"
+ticket_reason: "티켓을 생성하는 이유를 제공해 주세요"
+ticket_close_user: "티켓을 닫을 수 없습니다."
+ticket_create: "티켓이 생성되었습니다. %{channel}으로 가세요"
+ticket_create_title: "스태프의 응답을 기다려 주세요"
+ticket_create_desc: |
+  티켓을 생성해 주셔서 감사합니다. 스태프의 응답을 기다려 주세요.
+  `참고: 이 티켓에는 백업이 없습니다. 중요 정보를 직접 백업해 주세요`
+
+### Minecraft Stats Commands! ####
+setup_mc_author: "마인크래프트 상태"
+setup_mc_thumbnail: "https://cdn.is-a.fun/madebytragic/mews-mc.webp"
+setup_mc_players: "__**플레이어**__"
+setup_mc_motd: "__**MOTD**__"
+setup_mc_ip: "__**서버 주소**__"
+setup_mc_type: "__**유형**__"
+setup_mc_badrequest: "🔴 잘못된 요청 400"
+setup_mc_title_404: "🔴 찾을 수 없음 404"
+setup_mc_offline: "🔴 오프라인"
+
+### Minecraft command ###
+mc_ip_notfound: "서버 상태를 확인하는 동안 예상치 못한 오류가 발생했습니다. 유효한 IP/서버 온라인을 제공하고 나중에 다시 시도해 주세요."
+mc_ip_invalid: "**입력된 IP `%{ip}`가 유효하지 않습니다.**"

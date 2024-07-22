@@ -1,0 +1,86 @@
+# maintenance
+maintenance_title: "유지 보수"
+maintenance_desc: |
+  %{bot}는 현재 유지 보수 중입니다. 나중에 다시 시도해 주세요.
+  추가 정보는 [지원 서버](%{serversupport})에 참여해 주세요. 감사합니다!
+
+# Getting error!
+unexpected_error: "<:m_warning:1193112123757305886> 문제가 발생했습니다. 나중에 다시 시도해 주세요!"
+
+### Rate limit!
+ratelimit: "<:m_warning:1193112123757305886> 너무 빠르게 작업을 수행하고 있습니다. **%{time} 초** 기다려 주세요"
+
+# No permission!
+no_perms: |
+  <:m_warning:1193112123757305886> **%{perm}** 권한이 없습니다!
+  <:m_blank:1215234569008189450><:m_oke:1193111935462420531> 이 명령어를 실행하려면 **%{perm}** 권한을 부여해 주세요.
+
+no_manage_guild_perms: |
+  <:m_warning:1193112123757305886> 이 명령어를 실행하려면 **%{perm}** 권한이 필요합니다!
+  <:m_blank:1215234569008189450><:m_wrong:1193112008124530738> 이 명령어를 실행할 권한이 없습니다!
+
+no_admin_perms: |
+  <:m_warning:1193112123757305886> 이 명령어를 실행하려면 **%{perm}** 권한이 필요합니다!
+  <:m_blank:1215234569008189450><:m_wrong:1193112008124530738> 이 명령어를 실행할 권한이 없습니다!
+
+# No permission!
+no_perms_channel: "<:m_warning:1193112123757305886> %{channel}에서 **%{perm}** 권한이 없습니다!"
+
+# Execute when invalid
+no_node: "<:m_warning:1193112123757305886> **Lavalink 서버를 찾을 수 없습니다. 5분 후에 다시 시도해 주세요**"
+
+# Client owner!
+owner_only: "<:m_warning:1193112123757305886> 이 명령어는 봇 **소유자**만 실행할 수 있습니다"
+
+# Need to join voice & same voice to use command!
+no_player: "<:m_warning:1193112123757305886> 현재 재생 중인 노래가 없습니다!"
+no_same_voice: "<:m_wrong:1193112008124530738> 나와 동일한 음성 채널에 있지 않습니다!"
+no_in_voice: "<:m_wrong:1193112008124530738> 음성 채널에 있지 않습니다!"
+
+# Blacklist User
+blacklist_user: |
+  <:m_warning:1193112123757305886> 당신은 블랙리스트에 있는 것 같습니다! 명령어를 사용할 수 없습니다.
+  <:m_blank:1215234569008189450><:m_oke:1193111935462420531> 이것이 오류라고 생각되면 **[개발자](%{serversupport})**에게 연락해 주세요.
+
+# Blacklist Guild
+blacklist_guild: |
+  <:m_warning:1193112123757305886> 이 서버는 블랙리스트에 있습니다! 이 서버에서 명령어를 사용할 수 없습니다.
+  <:m_blank:1215234569008189450><:m_oke:1193111935462420531> 이것이 오류라고 생각되면 **[개발자](%{serversupport})**에게 연락해 주세요.
+
+# Mode
+enable: "활성화됨"
+disable: "비활성화됨"
+
+### No user premium Event!
+no_user_premium_button: "프리미엄으로 업그레이드"
+no_user_premium_plan_author: "프리미엄 사용자 없음"
+no_user_premium_plan_desc: "오류! 이 명령어는 프리미엄 사용자만 실행할 수 있습니다. 프리미엄 계획이 없는 것 같습니다."
+
+### No guild premium Event!
+no_guild_premium_button: "프리미엄으로 업그레이드"
+no_guild_premium_plan_author: "서버 프리미엄 계획 없음"
+no_guild_premium_plan_desc: "오류! 이 명령어는 프리미엄 서버만 실행할 수 있습니다. 프리미엄 계획이 없는 것 같습니다."
+
+# Top.gg error
+topgg_error_author: "Top.gg 투표 오류"
+topgg_error_desc: |
+  Top.gg에서 투표를 확인하는 동안 오류가 발생했습니다. Top.gg이 다운되었을 수 있습니다. 5-10분 후에 다시 시도해 주세요.
+  이 문제가 지속되면 [지원 서버](%{serversupport})에 연락해 주세요.
+
+# Top.gg unvote
+topgg_unvote_button: "투표하여 잠금 해제"
+premium_button: "프리미엄으로 업그레이드"
+topgg_unvote_author: "투표 필요"
+topgg_unvote_desc: |
+  이 명령어를 사용하려면 나에게 투표해야 합니다! 걱정하지 마세요, 투표는 10초밖에 걸리지 않으며 무료입니다!
+
+  또는 [Patreon](%{patreon})에서 프리미엄을 구매하여 이 메시지를 영구적으로 우회하고 멋진 기능과 명령어를 잠금 해제하여 품질을 향상시킬 수 있습니다.
+
+### Mention Desc ###
+mention_content: "안녕하세요 %{user}, 명령어를 사용하려면 나를 멘션할 수 있습니다! 슬래시 명령어를 보려면 </help:1219594142951149634>를 입력해 주세요 ♡"
+mention_desc: |
+  ### 이 서버의 접두사는 `%{prefix}`입니다
+  - **지원:** [링크](%{support})
+  - **투표:** [링크](%{votelink})
+  - **웹사이트:** [링크](%{website})
+  <:beam:1250113713080635473> <:besp:1250034413404946492> <:besc:1250034368685281330> <:bedz:1250034572184260701> <:beytm:1250035592742305915>와 호환됩니다

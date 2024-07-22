@@ -1,0 +1,90 @@
+### animated avatar
+new_avatar_not_gif: "유효한 gif/png 이미지를 제공해 주세요."
+new_avatar_success: "새 아바타가 성공적으로 설정되었습니다!"
+new_avatar_error: "새 아바타 설정에 실패했습니다."
+
+### animated banner
+new_banner_not_gif: "유효한 gif/png 이미지를 제공해 주세요."
+new_banner_success: "새 배너가 성공적으로 설정되었습니다!"
+new_banner_error: "새 배너 설정에 실패했습니다."
+
+### Shutdown command!
+restart_msg: "<:m_oke:1193111935462420531> **성공적으로 종료 중입니다...**"
+
+### Announcement to all server bot
+announcement_desc: "*이 공지의 설명을 입력하세요*"
+announcement_invalidURL: "*유효하지 않은 이미지 URL이 제공되었거나 URL이 제공되지 않았습니다. 유효한 이미지 URL을 제공해 주세요.*"
+announcement_timeout: "*지정된 시간 내에 입력이 없었습니다. 명령이 취소되었습니다.*"
+announcement_failure: "*모든 서버에 공지를 보내는 데 실패했습니다.*`서버를 찾을 수 없습니다.`"
+announcement_success: "*%{successfulGuilds} 개의 서버%{plural}에 공지가 성공적으로 전송되었습니다!*"
+
+### Blacklist Guild
+blacklist_guild_not_found: "서버를 찾을 수 없습니다"
+blacklist_guild_already: "서버 %{guild}는 이미 블랙리스트에 있습니다"
+blacklist_guild_add: "서버 %{guild}가 블랙리스트에 추가되었습니다."
+blacklist_guild_not_exist: "서버 %{guild}는 데이터베이스에 존재하지 않습니다"
+blacklist_guild_delete: "서버 %{guild}가 블랙리스트에서 제거되었습니다."
+
+### Blacklist User
+blacklist_user_bot_owner: "봇 소유자는 블랙리스트에 추가할 수 없습니다"
+blacklist_user_not_found: "사용자를 찾을 수 없습니다"
+blacklist_user_already: "사용자 %{user}는 이미 블랙리스트에 있습니다"
+blacklist_user_add: "사용자 %{user}가 블랙리스트에 추가되었습니다"
+blacklist_user_not_exist: "사용자 %{user}는 데이터베이스에 존재하지 않습니다"
+blacklist_user_delete: "사용자 %{user}가 블랙리스트에서 제거되었습니다"
+
+### Premium / Generate command!
+premium_code_arg_error: "<:m_wrong:1193112008124530738> 잘못된 인수입니다. %{text}를 사용하세요."
+premium_code_desc: |
+  **생성된 %{codes_length} 코드**
+  ```%{codes}```
+premium_dm_succes: "<:m_oke:1193111935462420531> **프리미엄 코드가 DM으로 전송되었습니다!**"
+premium_dm_failed: "<:m_wrong:1193112008124530738> **프리미엄 코드를 DM으로 전송하는 데 실패했습니다!**"
+
+### Premium Code Logs ###
+premium_code_plan: 계획
+premium_code_expired: 만료
+premium_code_generateby: 생성자
+
+### Remove command!
+premium_remove_desc: "<:m_oke:1193111935462420531> **%{user}의 프리미엄 사용자 권한이 성공적으로 제거되었습니다**"
+premium_remove_already: "<:m_warning:1193112123757305886> %{user}는 이미 제거되었습니다"
+premium_remove_invalid_params: "<:m_warning:1193112123757305886> 잘못된 인수, 예제 %{example}"
+premium_remove_404: "<:m_wrong:1193112008124530738> **%{type} 유형에서 %{id}를 찾을 수 없습니다**"
+premium_remove_invalid_type: "<:m_warning:1193112123757305886> 잘못된 유형, 유형 %{type}"
+premium_remove_footer: "성공적으로 %{user} 제거됨"
+premium_remove_id: "ID"
+premium_remove_by: "제거자"
+display_name: "디스플레이 이름"
+
+### Update command!
+update_provide_desc: "*이 업데이트의 설명을 입력하세요*"
+update_cancelled: "*설명이 제공되지 않았습니다. 명령이 취소되었습니다.*"
+update_length_exceeded: "*설명이 너무 깁니다. 최대 2000자까지 허용됩니다.*"
+update_success: "*업데이트가 성공적으로 전송되었습니다*"
+update_failure: "*업데이트 전송에 실패했습니다.*"
+update_timeout_failure: "*시간 초과. 다시 시도해 주세요.*"
+
+### Status command! (bot status)
+status_arg_error: "<:m_wrong:1193112008124530738> 잘못된 인수입니다. %{text}를 사용하세요."
+status_enable: "<:m_warning:1193112123757305886> **Oops! 상태 채널이 이미 존재합니다.**"
+status_create: "<:m_created:1215293513088892979> **봇 상태 채널이 생성되었습니다!**"
+status_null: "<:m_wrong:1193112008124530738> **봇 상태 채널을 찾을 수 없습니다!**"
+status_delete: "<:m_bin:1193112832930230272> **봇 상태 채널이 삭제되었습니다!**"
+
+### Maintenance Commands!
+maintenance_arg_error: "<:m_wrong:1193112008124530738> 잘못된 인수입니다. %{text}를 사용하세요."
+maintenance_true: "<:m_oke:1193111935462420531> 유지보수 모드가 **참**으로 설정되었습니다"
+maintenance_false: "<:m_oke:1193111935462420531> 유지보수 모드가 **거짓**으로 설정되었습니다"
+
+### Commands Guild List
+guild_list_number_invalid: "<:m_wrong:1193112008124530738> 유효한 번호를 제공해 주세요!"
+guild_list_title: "프리미엄 서버 목록!"
+guild_list_notnumber: "<:m_wrong:1193112008124530738> 페이지에는 숫자만 허용됩니다!"
+guild_list_page_notfound: "<:m_wrong:1193112008124530738> **%{page} 페이지**만 사용 가능합니다!"
+
+### Commands User List
+user_list_number_invalid: "<:m_wrong:1193112008124530738> 유효한 번호를 제공해 주세요!"
+user_list_title: "프리미엄 사용자 목록"
+user_list_notnumber: "<:m_wrong:1193112008124530738> 페이지에는 숫자만 허용됩니다!"
+user_list_page_notfound: "<:m_wrong:1193112008124530738> **%{page} 페이지**만 사용 가능합니다!"

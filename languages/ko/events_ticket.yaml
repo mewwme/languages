@@ -1,0 +1,14 @@
+### Ticket Events ###
+setup_ticket_succes: "티켓이 %{channel}으로 성공적으로 설정되었습니다."
+channel_viewable: "제공된 채널이 저에게 보이지 않습니다"
+category_viewable: "제공된 카테고리가 저에게 보이지 않습니다"
+invalid_category: "제공된 카테고리가 유효하지 않습니다"
+missing_permission: "봇이 티켓 채널을 생성할 수 있는 관리 채널 권한이 없습니다"
+invalid_channel_category: "제공된 채널 또는 카테고리가 유효하지 않습니다"
+ticket_reason: "티켓 생성 사유를 제공해 주세요"
+ticket_close_user: "티켓을 닫을 수 있는 권한이 없습니다."
+ticket_create: "티켓이 생성되었습니다. %{channel}으로 이동하세요"
+ticket_create_title: "직원의 응답을 기다려 주세요"
+ticket_create_desc: |
+  티켓을 생성해 주셔서 감사합니다. 직원의 응답을 기다려 주세요.
+  `참고: 이 티켓에는 백업이 없습니다. 중요한 정보는 직접 백업해 주세요`

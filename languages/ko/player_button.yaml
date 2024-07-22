@@ -1,0 +1,56 @@
+### Autoplay command!
+autoplay_on: "<:m_oke:1193111935462420531> 자동 재생이 **활성화됨**"
+autoplay_off: "<:m_wrong:1193112008124530738> 자동 재생이 **비활성화됨**"
+autoplay_no_song: "재생 중인 곡이 없습니다!"
+
+### Loop command!
+loop_current: |
+  <:m_loop:1193113331767185499> **현재 %{title}를 반복 중입니다**
+  <:m_blank:1215234569008189450><:m_sparkle:1204848989992648704> 즐기세요, %{user}**
+
+loop_all: "<:m_loop:1193113331767185499> **%{user}가 QUEUE 모드를 반복 중입니다**"
+unloop_all: "<:m_wrong:1193112008124530738> **반복 모드가 %{user}에 의해 비활성화되었습니다**"
+loop_invalid: "<:m_warning:1193112123757305886> 잘못된 반복 모드입니다. **%{mode}**를 사용해 주세요"
+loop_already: "<:m_warning:1193112123757305886> 반복 모드가 이미 **%{mode}**로 설정되어 있습니다"
+
+### Pause command!
+pause_msg: |
+  <:m_pause:1193115141156376647> **곡 %{title}가 현재 일시 정지되었습니다!**
+  <:m_blank:1215234569008189450><:m_sparkle:1204848989992648704> %{user}에 의해 일시 정지되었습니다**
+
+### Resume command!
+resume_msg: |
+  <:m_play:1193113362293338112> **재생이 재개되었습니다 %{title},**
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> 즐기세요 %{user}**
+
+previous_notfound: |
+  <:m_warning:1193112123757305886> **대기열에서 이전 곡을 찾을 수 없습니다!**
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> </play:1219594140560396421> 명령어로 더 많은 곡을 추가해 음악을 계속 재생해 보세요!**
+
+previous_msg: |
+  <:m_replay:1215286916014931998> **%{user}가 이전 곡으로 돌아갔습니다**
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> 현재 %{title} 재생 중입니다**
+
+### Queue command!
+queue_title: "대기열 재생 중..."
+queue_description: "**%{title}**\n\n**대기열 나머지 %{list_song}**"
+queue_footer: "페이지 • %{page}/%{pages} | 곡 수 • %{queue_lang} | 총 재생 시간 • %{total_duration}"
+
+### Shuffle command!
+shuffle_msg: "<:m_shuffle:1193113431423848450> **%{user}가 대기열을 섞었습니다**"
+
+### Skip command!
+skip_msg: "<:m_forward:1215286423951900734> **%{user}가 %{title}을(를) 건너뛰었습니다**"
+skip_notfound: |
+  <:m_warning:1193112123757305886> **건너뛸 곡이 없습니다! 건너뛸 곡이 없는 것 같습니다.**
+  <:m_blank:1215234569008189450><:m_singing:1196006929932234782> </play:1219594140560396421> 명령어로 더 많은 곡을 추가해 음악을 계속 재생해 보세요!**
+
+### Stop command!
+stop_msg: "<:m_stop:1193113393561878548> **%{user}가 %{title}을(를) 중지했습니다**"
+
+### Volume command!
+voldown_msg: "<:m_voldown:1196105475050192976> **볼륨을 %{volume}%로 변경했습니다**"
+volume_invalid: "<:m_warning:1193112123757305886> 잘못된 볼륨입니다. 사용 가능한 범위는 **1**부터 **100**까지입니다"
+volup_msg: "<:m_volup:1196105452547739788> **볼륨을 %{volume}%로 변경했습니다**"
+volume_max: "<:m_warning:1193112123757305886> **볼륨이 이미 최대 100%입니다**"
+volume_min: "<:m_warning:1193112123757305886> **플레이어 볼륨이 이미 최저입니다!**"

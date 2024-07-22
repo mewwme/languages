@@ -1,0 +1,112 @@
+### pl-add commands ###
+pl_add_invalid: "<:m_wrong:1193112008124530738> 유효한 재생목록 ID를 제공해 주세요!"
+pl_add_match: "<:m_warning:1193112123757305886> 유효한 노래 제목 또는 URL을 제공해 주세요!"
+pl_add_playlist: "검색된 **%{title}** `%{duration}` • (**%{track} 곡**) • %{user}"
+pl_add_track: "검색된 **%{title}** • `%{duration}` • %{user}"
+pl_add_search: "검색된 **%{title}** • `%{duration}` • %{user}"
+pl_add_owner: "<:m_wrong:1193112008124530738> **재생목록 소유자**가 아닙니다!"
+pl_add_limit_track: "<:m_wrong:1193112008124530738> **%{limit} 곡** 이상 추가할 수 없습니다."
+pl_add_added: "<:m_add:1215292119384723517> **%{count} 곡**이 `%{playlist}`에 추가되었습니다."
+
+### pl-all commands ###
+pl_all_view_embed_playlist: "%{num}. `%{name}` • (**%{tracks} 곡**) • 생성됨: `[%{create} 전]`"
+pl_all_view_embed_title: "%{user}"
+pl_all_view_embed_footer: "페이지 • %{page}/%{pages} | 재생목록 • %{songs}"
+pl_all_view_notnumber: "<:m_wrong:1193112008124530738> 유효한 페이지 번호를 제공해 주세요!"
+pl_all_view_page_notfound: "<:m_wrong:1193112008124530738> 총 **%{page} 페이지**만 있습니다!"
+
+### pl-create commands ###
+pl_create_invalid: "<:m_wrong:1193112008124530738> 유효한 재생목록 ID를 제공해 주세요!"
+pl_create_toolong: "<:m_wrong:1193112008124530738> 재생목록 이름은 **16자**를 초과할 수 없습니다."
+pl_create_des_toolong: "<:m_wrong:1193112008124530738> 재생목록 설명은 **1000자**를 초과할 수 없습니다."
+pl_create_limit_playlist: "<:m_wrong:1193112008124530738> **%{limit} 재생목록** 이상 생성할 수 없습니다."
+create_created_title: "새 재생목록이 성공적으로 생성되었습니다!"
+pl_create_created: |
+  <:m_queue:1193113465632587789> **재생목록 이름** ```%{playlist}```
+  <:m_id:1215293508634542106> **재생목록 ID** ```%{id}```
+  <:m_created:1215293513088892979> **설명** ```%{desc}```
+pl_create_created_footer: "/pl-editor를 입력하여 재생목록을 편집하세요!"
+
+### pl-delete commands ###
+pl_delete_invalid: "<:m_wrong:1193112008124530738> 유효한 재생목록 ID를 제공해 주세요!"
+delete_notfound: "<:m_warning:1193112123757305886> 유효한 재생목록 ID를 제공해 주세요!"
+pl_delete_owner: "<:m_wrong:1193112008124530738> **재생목록 소유자**가 아닙니다."
+pl_delete_confirm: "<:m_support:1206557461868183552> `%{playlist_id}`를 삭제하시겠습니까?"
+pl_delete_deleted: "<:m_oke:1193111935462420531> 재생목록 `%{name}`이 성공적으로 **삭제**되었습니다."
+pl_delete_no: "<:m_warning:1193112123757305886> 재생목록 **삭제**가 취소되었습니다!"
+
+### pl-detail commands ###
+pl_detail_number_invalid: "<:m_warning:1193112123757305886> 유효한 번호를 제공해 주세요!"
+pl_detail_notfound: "<:m_warning:1193112123757305886> 유효한 재생목록 ID를 제공해 주세요!"
+pl_detail_private: "<:m_lock:1204850955363811420> 재생목록이 **비공개**입니다."
+pl_detail_track: "%{num}. **%{title}** • **%{author}** `[%{duration}]`"
+pl_detail_embed_title: "재생목록: %{name}"
+pl_detail_embed_footer: "페이지 • %{page}/%{pages} | 곡 • %{songs} | 총 시간 • %{duration}"
+pl_detail_notnumber: "<:m_warning:1193112123757305886> 유효한 페이지 번호를 제공해 주세요!"
+pl_detail_page_notfound: "<:m_warning:1193112123757305886> 총 **%{page} 페이지**만 있습니다."
+
+### pl-editor commands! ###
+pl_edit_playlist_id_label: "새 재생목록 ID 입력 `[a-z, A-Z, 0-9]`"
+pl_edit_playlist_name_label: "새 재생목록 이름 입력"
+pl_edit_playlist_des_label: "새 재생목록 설명 입력"
+pl_edit_playlist_private_label: "새 재생목록 가시성 입력 `[public/private]`"
+pl_edit_success: "<:m_oke:1193111935462420531> 재생목록을 성공적으로 수정했습니다.\n<:m_blank:1215234569008189450><:m_id:1215293508634542106> 새 재생목록 ID: `%{playlistId}`"
+pl_edit_arg: "<:m_wrong:1193112008124530738> 유효한 재생목록 ID를 제공해 주세요!"
+pl_edit_notfound: "<:m_wrong:1193112008124530738> 유효한 재생목록 ID를 제공해 주세요!"
+pl_edit_playlist_owner: "<:m_wrong:1193112008124530738> **재생목록 소유자**가 아닙니다!"
+pl_edit_invalid_id: "<:m_wrong:1193112008124530738> 유효하지 않거나 존재하지 않는 재생목록 ID를 입력해 주세요!"
+pl_edit_invalid_mode: "<:m_wrong:1193112008124530738> 유효하지 않은 가시성 모드입니다. **public** 또는 **private**을 사용해 주세요."
+
+
+### Editor interaction!
+ineraction_edit_playlist_id_label: "새 재생목록 ID"
+ineraction_edit_playlist_name_label: "새 재생목록 이름"
+ineraction_edit_playlist_des_label: "새 재생목록 설명"
+ineraction_edit_playlist_private_label: "새 재생목록 가시성"
+ineraction_edit_playlist_id_placeholder: "새 재생목록 ID를 입력해 주세요! [a-z, A-Z, 0-9]"
+ineraction_edit_playlist_name_placeholder: "새 재생목록 이름을 입력해 주세요!"
+ineraction_edit_playlist_des_placeholder: "새 재생목록 설명을 입력해 주세요!"
+ineraction_edit_playlist_private_placeholder: "새 재생목록 가시성을 입력해 주세요! [public/private]"
+ineraction_edit_success: "<:m_oke:1193111935462420531> 재생목록을 성공적으로 수정했습니다.\n<:m_blank:1215234569008189450><:m_id:1215293508634542106> 새 재생목록 ID: `%{playlistId}`"
+ineraction_edit_playlist_error: "<:m_wrong:1193112008124530738> 문제가 발생했습니다. 다시 시도해 주세요!"
+ineraction_edit_notfound: "<:m_wrong:1193112008124530738> 유효한 재생목록 ID를 제공해 주세요!"
+ineraction_edit_playlist_owner: "<:m_wrong:1193112008124530738> **재생목록 소유자**가 아닙니다."
+ineraction_edit_invalid_id: "<:m_wrong:1193112008124530738> 유효하지 않거나 존재하지 않는 재생목록 ID를 입력해 주세요!"
+
+### pl-import commands! ###
+pl_import_imported_desc: "### 재생목록 **%{name}**이(가) 큐에 추가되었습니다 ♪"
+pl_import_imported_footer: "즐기세요 %{tracks} 곡 • %{duration} • 음악의 행복!"
+pl_import_invalid: "<:m_wrong:1193112008124530738> 유효한 재생목록 ID를 제공해 주세요!"
+pl_import_private: "<:m_lock:1204850955363811420> 재생목록이 **비공개**입니다."
+pl_import_voice: "<:m_wrong:1193112008124530738> 이 명령을 사용하려면 음성 채널에 있어야 합니다!"
+pl_import_empty: "<:m_wrong:1193112008124530738> 재생목록이 **비어 있습니다**."
+
+### pl-info commands! ###
+pl_info_owner: "<:m_owner:1215294053818830940> 소유자"
+pl_info_id: "<:m_id:1215293508634542106> ID"
+pl_info_des: "<:m_legal:1193105018887344169> 설명"
+pl_info_no_des: "설명이 제공되지 않았습니다!"
+pl_info_private: "<:m_visible:1215293510891085834> 가시성"
+pl_public: "공개"
+pl_private: "비공개"
+pl_info_total: "<:m_music:1193101413362966559> 총 곡 수"
+pl_info_created: "<:m_created:1215293513088892979> 생성됨"
+pl_info_invalid: "<:m_wrong:1193112008124530738> 유효한 재생목록 ID를 제공해 주세요!"
+
+### pl-remove commands! ###
+pl_remove_invalid: "<:m_wrong:1193112008124530738> 유효한 재생목록 ID를 제공해 주세요!"
+pl_remove_number_invalid: "<:m_wrong:1193112008124530738> 유효한 번호를 제공해 주세요!"
+pl_remove_notfound: "<:m_wrong:1193112008124530738> 유효한 재생목록 ID를 제공해 주세요!"
+pl_remove_owner: "<:m_wrong:1193112008124530738> **재생목록 소유자**가 아닙니다."
+pl_remove_song_notfound: "<:m_wrong:1193112008124530738> 곡을 찾을 수 없습니다!"
+pl_remove_removed: "<:m_bin:1193112832930230272> `%{name}`에서 **%{position}번** 곡이 제거되었습니다."
+
+### pl-SaveQueue command! ###
+pl_savequeue_invalid: "<:m_wrong:1193112008124530738> 유효한 재생목록 ID를 제공해 주세요!"
+pl_savequeue_notfound: "<:m_wrong:1193112008124530738> 유효한 재생목록 ID를 제공해 주세요!"
+pl_savequeue_owner: "<:m_wrong:1193112008124530738> **재생목록 소유자**가 아닙니다!"
+pl_savequeue_no_tracks: "<:m_wrong:1193112008124530738> 현재 재생 중인 곡이 없습니다!"
+pl_savequeue_no_new_saved: "<:m_wrong:1193112008124530738> 곡이 이미 `%{name}`에 존재합니다"
+pl_savequeue_saved: "<:m_oke:1193111935462420531> **%{tracks} 곡**을 `%{name}`에 저장했습니다"
+
+pl_error_no_node: "Lavalink 서버를 찾을 수 없습니다. **5분** 후에 다시 시도해 주세요"

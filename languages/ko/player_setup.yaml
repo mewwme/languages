@@ -1,0 +1,34 @@
+### Button Music Request ! ###
+stop_msg: "곡이 **중지되었습니다**"
+skip_notfound: "현재 건너뛸 곡이 없습니다"
+skip_msg: "곡이 **건너뛰었습니다**"
+previous_msg: "이전 **곡**으로 돌아갑니다"
+previous_notfound: "대기열에서 이전 곡을 찾을 수 없습니다!"
+resume_msg: "재생이 **다시 시작되었습니다**"
+pause_msg: "곡이 **일시 중지되었습니다**"
+loop_current: "현재 **곡**을 반복합니다"
+loop_all: "모든 **대기열**을 반복합니다"
+unloop_all: "반복이 **비활성화**되었습니다"
+
+# Need to join voice & same voice to use command!
+no_player: "<:m_warning:1193112123757305886> 현재 재생 중인 곡이 없습니다!"
+no_same_voice: "<:m_wrong:1193112008124530738> 저와 동일한 음성 채널에 있지 않습니다!"
+no_in_voice: "<:m_wrong:1193112008124530738> 음성 채널에 없습니다!"
+
+### HANDLER MUSIC REQUEST ! ###
+### load update ###
+setup_content_queue: "%{index}. **%{title}** 요청자: %{request}"
+setup_author: "현재 재생 중..."
+setup_author_icon: "https://cdn.discordapp.com/emojis/1212022783371116604.gif"
+setup_footer: "남은 곡 • %{totalsong} | 볼륨 • %{volume}% | 총 재생 시간 • %{duration}"
+setup_queuemsg: "**음성 채널에 참여하고 여기에서 이름 또는 URL로 곡을 재생하세요!**"
+setup_playembed_author: "현재 재생 중인 곡이 없습니다"
+
+### load content ###
+player_setup_title: "**%{title}**"
+play_track: "**%{title}**이(가) 추가되었습니다 • %{request}"
+play_playlist: "**%{title}**이(가) 추가되었습니다 • (**%{songs} 곡**) • %{request}"
+play_result: "**%{title}**이(가) 추가되었습니다 • %{request}"
+play_emoji: "이모지를 사용하여 곡을 재생할 수 없습니다!"
+setup_content_empty: "**음성 채널에 참여하고 여기에서 이름 또는 URL로 곡을 재생하세요!**"
+setup_content: "**__대기열:__**"
